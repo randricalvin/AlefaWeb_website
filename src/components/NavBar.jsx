@@ -1,34 +1,37 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logoalefaweb from '../assets/Rgb_black.svg'
 
 const NavBar = () => {
   return (
-    <div className='flex justify-between font-serif'>
-        <div>
-            <h1>
-                LOGO
-            </h1>
+    <div className='navbar flex justify-between items-center h-20 px-4 shadow-md fixed w-full bg-white top-0'>
+        <div >
+            <img src={logoalefaweb} alt="logo" className='h-16' />
         </div>
         <nav className='flex gap-10'> 
-            <div>
-                <Link to="/">
-                    Page 1 test
+            <div className='navli flex flex-col w-28'>
+                <Link to="/" className='flex justify-center my-2 link-underline'>
+                    Accueil
                 </Link>
+                <span className='h-1 bg-blue-700 '></span>
             </div>
-            <div>
-                <Link to="/page2">
-                    Page 2
+            <div className='navli flex flex-col w-28'>
+                <Link to="/page2" className='flex justify-center my-2'>
+                    Services
                 </Link>
+                <span className='h-1 bg-blue-700'></span>
             </div>
-            <div>
-                <Link to="/page3">
-                    Page 3
+            <div className='navli flex flex-col w-28'> 
+                <Link to="/page3" className='flex justify-center my-2'>
+                    Offres
                 </Link>
+                <span className='h-1 bg-blue-700'></span>
             </div>
-            <div>
-                <Link to="/page4">
-                    Page 4
+            <div className='navli flex flex-col w-28'>
+                <Link to="/page4" className='flex justify-center my-2'>
+                    Contact
                 </Link>
+                <span className='h-1 bg-blue-700'></span>
             </div>
         </nav>
     </div>

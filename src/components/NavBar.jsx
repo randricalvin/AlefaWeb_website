@@ -1,27 +1,36 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import logoalefaweb from '../assets/Rgb_black.svg'
+import { HashLink as Link } from 'react-router-hash-link'
+import { BrowserRouter } from 'react-router-dom'
 
 const NavBar = () => {
+
   return (
-    <div className='navbar flex justify-center items-center'>
-        <nav className=' flex justify-between w-5/6 items-center h-20 text-black relative shadow-sm font-mono' role='navigation'>
-            <div className=''>
-                <Link to='/' className=''>
-                    <img src={logoalefaweb} alt='logo' className='h-14' />
-                </Link>
-            </div>
-            <div className='flex gap-12 '>
-                <Link to='/page1' className=''>Accueil</Link>
-                <Link to='/page2' className=''>Services</Link>
-                <Link to='/page3' className=''>Offres</Link>
-                <Link to='/page4' className=''>Compétences</Link>
-                <Link to='/page5' className=''>Blog</Link>
-            </div>
-            <div className=''>
-                <a href="www.google.com" className='button-contact flex items-center justify-center border-2 border-[#FF7B34] py-2 px-6 rounded-full'>Contact</a>
+    <div>
+        <BrowserRouter>
+        <nav className='navbar flex justify-center items-center shadow-md'>
+            <div className='flex justify-between w-5/6 mx-auto items-center'>
+                <div className='w-1/6'>
+                    <Link  smooth to='/#' className='flex justify-start'>
+                        <img src={logoalefaweb} alt='logo' className='h-14' />
+                    </Link>
+                </div>
+                <div className='w-4/6'>
+                    <div className='flex justify-center items-center gap-12'>
+                        <Link  smooth to='/#' className='text-xl list'>Accueil</Link>
+                        <Link  smooth to='/#services' className='text-xl list'>Services</Link>
+                        <Link  smooth to='/#offres' className='text-xl list'>Offers</Link>
+                        <Link to='/blog' className='text-xl list'>Blog</Link>    
+                    </div>
+                </div>
+                <div className='w-1/6'>
+                    <div className='flex justify-end'>
+                        <Link  smooth to='/#contact' className='flex items-center border-2 border-[#FF6501] py-2 px-8 rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>Contact</Link>
+                    </div>
+                </div>
             </div>
         </nav>
+        </BrowserRouter>
     </div>
   )
 }

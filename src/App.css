@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 @font-face {
     font-family: 'Chillax-Variable';
@@ -109,7 +109,7 @@
   height: 5px;
   content: "";
   position: absolute;
-  background-color: #7B52FB;
+  background-color: #FF6501;
 }
 
 .list::before {
@@ -131,16 +131,12 @@
 
   .accueil-presentation {
     width: 1140px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .contact {
-    height: 100vh;
-    padding-top: 8rem;
-  }
-
-  .services {
     height: 100vh;
     padding-top: 8rem;
   }
@@ -157,11 +153,11 @@
   width: 30rem;
   left: -200px;
   z-index: -1;
-  filter: blur(10px);
+  filter: blur(1px);
 }
 
 .homeimage {
-  height: 30rem;
+  height: 32rem;
 }
 
 

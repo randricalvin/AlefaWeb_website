@@ -1,3 +1,246 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Chillax-Variable';
+    src: url('../fonts/Chillax-Variable.woff2') format('woff2'),
+         url('../fonts/Chillax-Variable.woff') format('woff'),
+         url('../fonts/Chillax-Variable.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Extralight';
+    src: url('../fonts/Chillax-Extralight.woff2') format('woff2'),
+         url('../fonts/Chillax-Extralight.woff') format('woff'),
+         url('../fonts/Chillax-Extralight.ttf') format('truetype');
+         font-weight: 200;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Light';
+    src: url('../fonts/Chillax-Light.woff2') format('woff2'),
+         url('../fonts/Chillax-Light.woff') format('woff'),
+         url('../fonts/Chillax-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Regular';
+    src: url('../fonts/Chillax-Regular.woff2') format('woff2'),
+         url('../fonts/Chillax-Regular.woff') format('woff'),
+         url('../fonts/Chillax-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Medium';
+    src: url('../fonts/Chillax-Medium.woff2') format('woff2'),
+         url('../fonts/Chillax-Medium.woff') format('woff'),
+         url('../fonts/Chillax-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Semibold';
+    src: url('../fonts/Chillax-Semibold.woff2') format('woff2'),
+         url('../fonts/Chillax-Semibold.woff') format('woff'),
+         url('../fonts/Chillax-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Bold';
+    src: url('../fonts/Chillax-Bold.woff2') format('woff2'),
+         url('../fonts/Chillax-Bold.woff') format('woff'),
+         url('../fonts/Chillax-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbar {
+    font-family: "Chillax";
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: white;
+    font-weight: 500;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+}
+
+
+/* navbar animation hover */
+.list {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.list::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #FF6501;
+}
+
+.list::before {
+  width: 0%;
+  bottom: 0px;
+}
+
+.list:hover::before {
+  width: 100%;
+}
+
+
+/* Page style */
+
+  .accueil {
+    height: 100vh;
+    padding-top: 8rem;
+  }
+
+  .accueil-presentation {
+    width: 1140px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact {
+    height: 100vh;
+    padding-top: 8rem;
+  }
+
+  .offres {
+    height: 100vh;
+    padding-top: 8rem;
+  }
+
+/* Blob styling */
+
+.blob-animation {
+  position: absolute;
+  width: 30rem;
+  left: -200px;
+  z-index: -1;
+  filter: blur(1px);
+}
+
+.homeimage {
+  height: 32rem;
+}
+
+
+/* 
+.text-presentation1 {
+  position: absolute;
+  display: block;
+  text-align: left;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 5%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: 5s ease-out infinite;
+  animation-timing-function: ease-in-out;
+  
+}
+
+.text-presentation1{
+	animation-name: anim-1;
+}
+
+@keyframes anim-1 {
+  100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+  75% {
+		transform: translateX(-52%);
+	}
+  60% {
+		transform: translateX(-45%);
+	}
+	20% {
+		opacity: 0;
+	}
+}
+
+@keyframes anim-1 {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
+
+@keyframes anim-2 {
+  100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+  75% {
+		transform: translateX(-52%);
+	}
+  60% {
+		transform: translateX(-45%);
+	}
+	20% {
+		opacity: 0;
+	}	
+}
+
+@keyframes anim-2 {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+} */

@@ -9,6 +9,7 @@ module.exports = {
     fontFamily: {
       sans: ["Lexend Deca", "sans-serif"],
       serif: ["Red Hat Display", "serif"],
+      serif2: ["Lato", "serif"],
     },
   },
   plugins: [],

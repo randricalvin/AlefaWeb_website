@@ -11,10 +11,15 @@
   "dependencies": {
     "antd": "^5.0.1",
     "aos": "^2.3.4",
+    "embla-carousel-autoplay": "^7.0.5",
+    "embla-carousel-react": "^7.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaf-carousel": "^3.0.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.4.3",
     "react-router-hash-link": "^2.4.3",
+    "react-touch-carousel": "^0.10.2",
     "react-transition-group": "^4.4.5",
     "scrollreveal": "^4.0.9"
   },

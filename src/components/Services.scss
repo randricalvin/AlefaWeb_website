@@ -4,6 +4,16 @@ body {
     box-sizing: border-box;
 }
 
+.blob-animation2 {
+  position: absolute;
+  width: 60rem;
+  margin-bottom: 20rem;
+  right: 0;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+
 .services {
     padding-top: 4rem;
     width: 1140px;

@@ -10,6 +10,7 @@ import creation_boutique_en_ligne from '../assets/creation_boutique_en_ligne.svg
 import webdesign_graphic_design from '../assets/webdesign_graphic_design.svg'
 import responsive_design from '../assets/responsive_design.svg'
 import maintenance_site_internet from '../assets/maintenance_site_internet.svg'
+import blob2 from '../assets/blob2.svg'
 
 const Services = () => {
   useEffect(() => {
@@ -17,6 +18,9 @@ const Services = () => {
   }, [])
   return (
     <div className='body'>
+        <div>
+          <img src={blob2} alt="blob-animation" className='blob-animation2' />
+        </div>
       <div id='services' className='services text-2xl justify-start items-center flex flex-col' >
         <span className='text-4xl font-bold font-serif title-service text-[#7B52FB] pb-6'>
           Mes services

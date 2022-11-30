@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Techs.scss"
-import outil_react_site_internet from '../assets/caroussel/outil_react_site_internet.svg'
+import CarouselTechs from './caroussel/CarouselTechs';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Techs = () => {
+    
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
   return (
     <div className='bg-[#1B1559]'>
-        <div className='techno pt-6'>
-            <span className='text-4xl text-white font-serif'>Travaillons ensemble avec les meilleurs outils</span>
+        <div className='techno pt-10'>
+            <span className='text-4xl text-white font-serif'>Travaillons ensemble avec les <span className='text-[#7B52FB] title-outil pb-2'>meilleurs outils</span></span>
             <div className='font-serif2 techno-presentation text-white w-1/2 mt-6'>
                 <h1>
                     Pour vous ouffrir le meilleur service, je travaille avec des CMS et d'autres outils pour des développements spécifiques.
@@ -17,11 +24,8 @@ const Techs = () => {
             </div>
         </div>
 
-        {/* caroussel */}
-        <div>
-            <div>
-                <img src={outil_react_site_internet} alt="outil_react_site_internet" />
-            </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <CarouselTechs />
         </div>
     </div>
   )

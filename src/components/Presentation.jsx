@@ -16,7 +16,7 @@ const Presentation = () => {
             
             <div className='py-6'>
                 freelance à 
-                    <span className='text-[#7B52FB] text-presentation'> Orléans</span> 
+                    <span className='text-[#7B52FB] text-presentation pb-2'> Orléans</span> 
             </div>
             <div>
                 <TexteHomePage />

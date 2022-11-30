@@ -83,6 +83,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #eeeeee;
   }
 
 .navbar {
@@ -148,12 +149,12 @@
 
 /* Blob styling */
 
-.blob-animation {
+.blob-animation1 {
   position: absolute;
-  width: 30rem;
-  left: -200px;
+  width: 40rem;
+  left: -310px;
   z-index: -1;
-  filter: blur(1px);
+  filter: blur(20px);
 }
 
 .homeimage {

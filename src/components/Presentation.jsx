@@ -14,9 +14,10 @@ const Presentation = () => {
             </h1>
 
             
-            <div className='py-6'>
-                freelance à 
+            <div className=''>
+                freelance basé à 
                     <span className='text-[#7B52FB] text-presentation pb-2'> Orléans</span> 
+                    <span> et disponible partout en France</span> 
             </div>
             <div>
                 <TexteHomePage />

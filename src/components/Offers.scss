@@ -1,36 +1,16 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.blob-animation2 {
-  position: absolute;
-  width: 60rem;
-  margin-bottom: 20rem;
-  right: 0;
-  z-index: -1;
-  filter: blur(20px);
+.offres {
+  
 }
 
 
-.services {
-    padding-top: 4rem;
-    width: 1140px;
-    margin: 0 auto;
-    display: flex;
-  }
-
-.text-service {
+.text-offre {
     font-weight: 400;
     font-size: 1.25rem;
 }
 
-.card {
-    min-height: 17rem;
-}
 
-.title-service {
+
+.title-offre {
     position: relative;
     white-space: nowrap;
     overflow: hidden;

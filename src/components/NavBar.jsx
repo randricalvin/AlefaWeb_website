@@ -19,7 +19,8 @@ const NavBar = () => {
                     <div className='flex justify-center items-center gap-12'>
                         <Link  smooth to='/#' className='text-xl list'>Accueil</Link>
                         <Link  smooth to='/#services' className='text-xl list'>Services</Link>
-                        <Link  smooth to='/#offres' className='text-xl list'>Offers</Link>
+                        <Link  smooth to='/#offres' className='text-xl list'>Offres</Link>
+                        <Link  smooth to='/#realisations' className='text-xl list'>Réalisations</Link>
                         <Link to='/blog' className='text-xl list'>Blog</Link>    
                     </div>
                 </div>

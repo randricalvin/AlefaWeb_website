@@ -39,13 +39,13 @@ const CarouselTechs = () => {
             dots={true}
             showSides={true}
             sidesOpacity={.5}
-            sideSize={.1}
-            slidesToScroll={4}
+            sideSize={.3}
+            slidesToScroll={5}
             slidesToShow={5}
             scrollOnDevice={true}
         >
             <div>
-                <img src={outil_wordpress_site_internet} alt="outil_wordpress_site_internet" style={{width : '5rem', height : '5rem'}}/>
+                <img src={outil_wordpress_site_internet} alt="outil_wordpress_site_internet" style={{width : '5rem', height : '5rem'}} className="mb-10"/>
             </div>
             <div>
                 <img src={outil_woocommerce_site_internet} alt="outil_woocommerce_site_internet" style={{width : '6rem', height : '6rem'}}/>

@@ -14,12 +14,20 @@ const Techs = () => {
     <div className='bg-[#1B1559]'>
         <div className='techno pt-10'>
             <span className='text-4xl text-white font-serif'>Travaillons ensemble avec les <span className='text-[#7B52FB] title-outil pb-2'>meilleurs outils</span></span>
-            <div className='font-serif2 techno-presentation text-white w-1/2 mt-6'>
+            <div className='font-serif2 techno-presentation text-white w-2/3 mt-6'>
                 <h1>
-                    Pour vous ouffrir le meilleur service, je travaille avec des CMS et d'autres outils pour des développements spécifiques.
+                    Pour vous offrir le meilleur service, je travaille avec WordPress (outil de gestion de contenus).
+                </h1>
+
+                <h1>
+                    Je peux aussi utiliser d'autres langages afin de personnaliser votre site.
+                </h1>
+
+                <h1>
+                    L'objectif est de vous offrir un produit 100% adapté à vos besoins.
                 </h1>
                 <h1>
-                    L'objectif est de vous offrir un produit 100% adapté à vos besoins. Un site internet rapide, sécurisé, et qui fonctionne sur tous les appareils.
+                    Un site internet rapide, sécurisé, et qui fonctionne sur tous les appareils.
                 </h1>
             </div>
         </div>

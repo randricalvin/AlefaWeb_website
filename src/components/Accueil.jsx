@@ -13,7 +13,7 @@ const Accueil = () => {
         <img src={blob} alt="blob animation" className='blob-animation1'/>
       <div className='accueil-presentation flex flex-col justify-evenly'>
         <div className='flex justify-between'>
-          <div className='pt-14'>
+          <div className='pt-14 w-1/2'>
             <Presentation />
           </div>
           <div className=""data-aos="fade-up" data-aos-duration="1000">

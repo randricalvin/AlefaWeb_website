@@ -26,7 +26,7 @@ const NavBar = () => {
                 </div>
                 <div className='w-1/6'>
                     <div className='flex justify-end'>
-                        <Link  smooth to='/#contact' className='flex items-center border-2 border-[#FF6501] py-2 px-8 rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>Contact</Link>
+                        <Link  smooth to='/#contact' className='flex items-center text-white bg-[#FF6501] py-2 px-8 rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>Contact</Link>
                     </div>
                 </div>
             </div>

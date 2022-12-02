@@ -14,7 +14,20 @@ const Etapes = () => {
         <div className='timeline w-full flex justify-center'>
             <div className=''>
                 <img src={timeline} alt="les etapes du developpement" className=''/>
-                
+            </div>
+            <div className='number-timeline flex flex-col items-center text-white h-full justify-between'>
+                <div className='h-1/4 flex items-end'>
+                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>1</span>
+                </div>
+                <div className='h-1/4 flex items-end'>
+                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>2</span>
+                </div>
+                <div className='h-1/4 flex items-end'>
+                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>3</span>
+                </div>
+                <div className='h-1/4 flex items-end'>
+                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>4</span>
+                </div>
             </div>
         </div>
 

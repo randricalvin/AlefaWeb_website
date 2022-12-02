@@ -16,7 +16,6 @@ const Offers = () => {
           Mes offres
         </span>
 
-
         <div className='flex mx-12 gap-4 justify-between my-12'>
           {/* 1 */}
           <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-2xl duration-300">

@@ -263,8 +263,10 @@ const Offers = () => {
             </BrowserRouter>
           </div>
         </div>
-
+        
+      <div>
         <Etapes />
+      </div>
     </div>
   )
 }

@@ -9,32 +9,12 @@ const Etapes = () => {
         Aos.init({ duration: 2000 })
     }, [])
 
-    // adding fill effect to the timeline on scroll
-    
-
   return (
     <section className='w-4/6 mx-auto'>
-        
-
-
-
-        {/* <div className='timeline w-full flex justify-center'>
+        <div className='timeline w-full flex justify-center'>
             <div className=''>
                 <img src={timeline} alt="les etapes du developpement" className=''/>
-            </div>
-            <div className='number-timeline flex flex-col items-center text-white h-full justify-between'>
-                <div className='h-1/4 flex items-end'>
-                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>1</span>
-                </div>
-                <div className='h-1/4 flex items-end'>
-                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>2</span>
-                </div>
-                <div className='h-1/4 flex items-end'>
-                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>3</span>
-                </div>
-                <div className='h-1/4 flex items-end'>
-                   <span className='bg-[#7B52FB] h-10 w-10 rounded-full flex items-center justify-center'>4</span>
-                </div>
+                
             </div>
         </div>
 
@@ -74,7 +54,7 @@ const Etapes = () => {
                     <p class="mb-3 text-lg">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
                 </div>
             </div>
-        </div> */}
+        </div>
     </section>
   )
 }

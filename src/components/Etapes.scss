@@ -1,0 +1,17 @@
+.timeline {
+    position: absolute;
+    right: 0;
+}
+
+.number-timeline {
+    position: absolute;
+}
+
+
+#scroll-progress {
+    position: absolute;
+    width: 10px;
+    height: 800px;
+    background: #7983ff;
+    z-index: 10000;
+  }

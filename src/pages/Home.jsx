@@ -7,13 +7,13 @@ import Techs from '../components/Techs'
 import Etapes from '../components/Etapes'
 
 const Home = () => {
+
   return (
       <div className='home '>
         <Accueil />
         <Services />
         <Techs />
         <Offers />
-        <Etapes />
         <Contact />
       </div>
 

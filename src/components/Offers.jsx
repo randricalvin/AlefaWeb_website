@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Etapes from './Etapes'
 
 const Offers = () => {
   useEffect(() => {
@@ -262,6 +263,8 @@ const Offers = () => {
             </BrowserRouter>
           </div>
         </div>
+
+        <Etapes />
     </div>
   )
 }

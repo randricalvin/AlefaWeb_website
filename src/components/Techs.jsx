@@ -32,7 +32,7 @@ const Techs = () => {
             </div>
         </div>
 
-        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div className='mt-12 pb-8'>
             <CarouselTechs />
         </div>
     </div>

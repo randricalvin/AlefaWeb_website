@@ -9,6 +9,8 @@ const Etapes = () => {
         Aos.init({ duration: 2000 })
     }, [])
 
+    // make a timeline with the number of the step and the text of the step, fill on scroll
+
   return (
     <section className='w-4/6 mx-auto'>
         <div className='timeline w-full flex justify-center'>

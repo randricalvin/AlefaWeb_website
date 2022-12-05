@@ -18,7 +18,7 @@ import "./CarouselTechs.scss"
 const CarouselTechs = () => {
         
   return (
-    <div class="slider">
+    <div class="slider w-5/6 mx-auto">
 	    <div class="slide-track">
             <div className='slide'>
                 <img src={outil_wordpress_site_internet} alt="outil_wordpress_site_internet" style={{width : '5rem', height : '5rem'}} className="mb-10"/>

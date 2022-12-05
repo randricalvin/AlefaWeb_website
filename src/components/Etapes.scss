@@ -6,3 +6,18 @@
 .number-timeline {
     position: absolute;
 }
+
+.card-timeline {
+}
+
+.phase {
+    text-decoration: underline #7B52FB solid 0.5rem;
+    margin-left: 2px;
+}
+
+.phase:hover {
+    background-color: #7B52FB;
+    color: white;
+    transition: 0.5s;
+}
+

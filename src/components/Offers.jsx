@@ -292,7 +292,7 @@ const Offers = () => {
           </div>
         </div>
 
-        {/* <Etapes /> */}
+        <Etapes />
     </div>
   )
 }

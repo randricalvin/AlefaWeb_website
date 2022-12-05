@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
     "antd": "^5.0.1",
     "aos": "^2.3.4",
     "embla-carousel-autoplay": "^7.0.5",

@@ -21,7 +21,7 @@ const Services = () => {
         <div>
           <img src={blob2} alt="blob-animation" className='blob-animation2' />
         </div>
-      <div id='services' className='services text-2xl justify-start items-center flex flex-col' >
+      <div id='services' className='services text-2xl justify-start items-center flex flex-col w-5/6 mx-auto' >
         <span className='text-4xl font-bold font-serif title-service text-[#7B52FB] pb-6'>
           Mes services
         </span>
@@ -36,11 +36,11 @@ const Services = () => {
         </div>
 
 
-        <div className=''>
+        <div className='flex flex-col'>
           <div className='flex gap-8'>
             {/* 1 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3 '>
-              <div class="card flex flex-col justify-between max-w-sm p-6 bg-white border border-gray-200  rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200  rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
                   <div className='flex justify-between items-center'>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Création de site internet</h5>
                     <img src={creation_site_internet} alt="creation_site_internet_orleans" className='h-14'/>
@@ -57,7 +57,7 @@ const Services = () => {
 
             {/* 2 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Refonte de site internet</h5>
                       <img src={refonte_site_internet} alt="refonte_site_internet_orleans" className='h-14'/>
@@ -74,7 +74,7 @@ const Services = () => {
 
             {/* 3 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Création de boutique en ligne</h5>
                       <img src={creation_boutique_en_ligne} alt="creation_boutique_en_ligne_orleans" className='h-14'/>
@@ -93,7 +93,7 @@ const Services = () => {
           <div className='flex gap-8 my-16'>
             {/* 4 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Webdesign & Graphic design</h5>
                       <img src={webdesign_graphic_design} alt="webdesigner_graphic_designer_orleans" className='h-14'/>
@@ -110,7 +110,7 @@ const Services = () => {
 
             {/* 5 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-            <div class="card flex flex-col justify-between max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+            <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
                   <div className='flex justify-between items-center'>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Responsive design</h5>
                     <img src={responsive_design} alt="site_responsive_orleans" className='h-16'/>
@@ -127,7 +127,7 @@ const Services = () => {
 
             {/* 6 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Maintenance de site internet</h5>
                       <img src={maintenance_site_internet} alt="maintenance_site_internet_orleans" className='h-16'/>

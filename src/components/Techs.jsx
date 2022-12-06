@@ -3,6 +3,7 @@ import "./Techs.scss"
 import CarouselTechs from './caroussel/CarouselTechs';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import Etapes from './Etapes';
 
 const Techs = () => {
     
@@ -34,6 +35,7 @@ const Techs = () => {
 
         <div className='mt-12 pb-8'>
             <CarouselTechs />
+            <Etapes />
         </div>
     </div>
   )

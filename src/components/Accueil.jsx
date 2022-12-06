@@ -9,9 +9,9 @@ import 'aos/dist/aos.css'
 const Accueil = () => {
 
   return (
-    <div id='#' className='accueil'>
+    <div id='#' className='accueil w-5/6 mx-auto'>
         <img src={blob} alt="blob animation" className='blob-animation1'/>
-      <div className='accueil-presentation flex flex-col justify-evenly'>
+      <div className='accueil-presentation flex flex-col justify-around'>
         <div className='flex justify-between'>
           <div className='pt-14 w-1/2'>
             <Presentation />
@@ -21,7 +21,7 @@ const Accueil = () => {
           </div>
         </div>
 
-        <div className='flex flex-col pb-8'>
+        <div className='flex flex-col'>
           <Arrow />
         </div>
       </div>

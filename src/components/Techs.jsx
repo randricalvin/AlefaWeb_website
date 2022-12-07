@@ -15,9 +15,9 @@ const Techs = () => {
     <div className='bg-[#1B1559]'>
         <div className='techno pt-10 w-5/6 mx-auto'>
             <span className='text-4xl text-white font-serif'>Travaillons ensemble avec les <span className='text-[#7B52FB] title-outil pb-2'>meilleurs outils</span></span>
-            <div className='font-serif2 techno-presentation text-white w-2/3 mt-6'>
+            <div className='font-serif2 techno-presentation text-white w-2/3 mt-8'>
                 <h1>
-                    Pour vous offrir le meilleur service, je travaille avec WordPress (outil de gestion de contenus).
+                    Pour vous offrir le meilleur service, je travaille avec WordPress et Shopify (outil de gestion de contenus).
                 </h1>
 
                 <h1>
@@ -33,7 +33,7 @@ const Techs = () => {
             </div>
         </div>
 
-        <div className='mt-12 pb-8'>
+        <div className='pt-16'>
             <CarouselTechs />
             <Etapes />
         </div>

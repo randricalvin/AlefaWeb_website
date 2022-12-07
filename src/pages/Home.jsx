@@ -4,16 +4,17 @@ import Services from '../components/Services'
 import Offers from '../components/Offers'
 import Contact from '../components/Contact'
 import Techs from '../components/Techs'
-import Etapes from '../components/Etapes'
+import Realisations from '../components/Realisations'
 
 const Home = () => {
 
   return (
-      <div className='home '>
+      <div className='home'>
         <Accueil />
         <Services />
         <Techs />
         <Offers />
+        <Realisations />
         <Contact />
       </div>
 

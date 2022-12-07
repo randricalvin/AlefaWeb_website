@@ -96,6 +96,8 @@
     position: fixed;
     top: 0;
     z-index: 100;
+    backdrop-filter: saturate(180%) blur(5px);
+    background: hsla(0,0%,100%,.8);
 }
 
 
@@ -131,7 +133,6 @@
   }
 
   .accueil-presentation {
-    width: 1140px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;

@@ -12,7 +12,7 @@ const Accueil = () => {
     <div id='#' className='accueil w-5/6 mx-auto'>
         <img src={blob} alt="blob animation" className='blob-animation1'/>
       <div className='accueil-presentation flex flex-col justify-around'>
-        <div className='flex justify-between'>
+        <div className='flex justify-center'>
           <div className='pt-14 w-1/2'>
             <Presentation />
           </div>

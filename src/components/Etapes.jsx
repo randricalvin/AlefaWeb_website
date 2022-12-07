@@ -37,7 +37,7 @@ const Etapes = () => {
                         {/* <img src={discussion_creation_internet} alt="creation_site_internet_orleans" className='h-16'/> */}
                         <h5 className="phase text-xl font-extrabold uppercase my-2">échange</h5>
                     </div>
-                    <p class="text-base my-2">
+                    <p class="text-base my-2 text-justify">
                         Nous échangeons sur vos besoins et vos attentes afin de définir ensemble le projet. L'objectif est de trouver la solution la plus adaptée à votre demande.
                     </p>
                 </div>
@@ -52,7 +52,7 @@ const Etapes = () => {
                         {/* <img src={discussion_creation_internet} alt="creation_site_internet_orleans" className='h-16'/> */}
                         <h5 className="phase text-xl font-extrabold uppercase my-2">Proposition</h5>
                     </div>
-                    <p class="text-base my-2">
+                    <p class="text-base my-2 text-justify">
                         Je vous propose ensuite un devis détaillé et personnalisé en fonction de ce qui a été défini ensemble lors de la première rencontre.
                     </p>
                 </div>
@@ -67,7 +67,7 @@ const Etapes = () => {
                         {/* <img src={discussion_creation_internet} alt="creation_site_internet_orleans" className='h-16'/> */}
                         <h5 className="phase text-xl font-extrabold uppercase my-2">Développement</h5>
                     </div>
-                    <p class="text-base my-2">
+                    <p class="text-base my-2 text-justify">
                         Une fois le devis accepté, je commence la partie réalisation, qui comprend la phase de design, de développement, et des tests. Des points de rendez-vous sont prévus (à votre convenance) pour vous tenir informé de l'avancement du projet.
                     </p>
                 </div>
@@ -82,7 +82,7 @@ const Etapes = () => {
                         {/* <img src={discussion_creation_internet} alt="creation_site_internet_orleans" className='h-16'/> */}
                         <h5 className="phase text-xl font-extrabold uppercase my-2">Livraison</h5>
                     </div>
-                    <p class="text-base my-2">
+                    <p class="text-base my-2 text-justify">
                         Une fois le projet terminé, j'effectue sa mise en ligne. <br/> Je vous accompagne également dans la prise en main de votre site. Il ne vous reste plus qu'à profiter de vos premières visites !
                     </p>
                 </div>

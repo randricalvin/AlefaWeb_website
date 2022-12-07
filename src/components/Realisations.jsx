@@ -14,15 +14,16 @@ const Realisations = () => {
           Mes réalisations
         </h1>
 
-        <p className='my-12 font-serif2 text-service'>
+        <p className='my-12 font-serif2 text-service w-full'>
           Vous trouverez ci-dessous mes dernières réalisations. J'espère que nous aurons l'occasion de travailler ensemble et de <span className='font-bold'>voir votre projet apparaître dans cette liste.</span> 
         </p>
-
-          {realisations.map((realisation, index) => {
-            return <RealisationsList key={index} realisation={realisation} 
-            />
-          }
-          )}
+          <div className='flex justify-between'>
+            {realisations.map((realisation, index) => {
+              return <RealisationsList key={index} realisation={realisation} 
+              />
+            }
+            )}
+        </div>
     </div>
 
   )

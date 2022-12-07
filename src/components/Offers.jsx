@@ -23,8 +23,7 @@ const Offers = () => {
             {/* 1 */}
             <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div className=''>
-                <h5 class="text-2xl font-bold uppercase text-center">Site vitrine</h5>
-                <h5 class="text-2xl font-bold uppercase text-center">standard</h5>
+                <h5 class="text-2xl font-extrabold uppercase text-center">Site vitrine<br/>standard</h5>
                 <div className='flex justify-center'>
                   <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress</h5>
                 </div>
@@ -282,7 +281,7 @@ const Offers = () => {
 
           <div className='flex items-center justify-around bg-[#1B1559] py-6 my-16'>
             <h1 className='mx-12 text-white text-xl'>
-              Vous avez des demandes spécifiques ? <br/> N'hésitez pas à me contacter !
+              Vous avez une demande spécifique ? <br/> N'hésitez pas à me contacter !
             </h1>
             <BrowserRouter>
                 <div className='flex justify-center mx-12'>

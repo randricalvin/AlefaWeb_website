@@ -4,7 +4,9 @@ import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Etapes from './Etapes'
+import trait_marquage from '../assets/trait_marquage.svg'
+import blob3 from '../assets/blob3.svg'
+import blob4 from '../assets/blob4.svg'
 
 const Offers = () => {
   useEffect(() => {
@@ -13,9 +15,16 @@ const Offers = () => {
 
   return (
     <div id='offres' className='offres text-2xl justify-start items-center flex flex-col font-serif2'>
-        <span className='text-4xl font-bold font-serif title-offre text-[#7B52FB] pb-6'>
-          Mes offres
-        </span>
+        <div>
+          <img src={blob3} alt="blob-animation" className='blob-animation3' />
+        </div>
+
+        <div className='flex flex-col items-center'>
+          <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>
+            Mes offres
+          </span>
+          <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>
+        </div>
 
 
         <div className='flex flex-col items-start mx-12'>

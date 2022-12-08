@@ -9,25 +9,21 @@ const Presentation = () => {
     <BrowserRouter>
     <section className='font-serif'>
         <div className='text-4xl'>
-            <h1>
-                Développeur web
-            </h1>
-
-            
             <div className=''>
-                freelance basé à 
-                    <span className='text-[#7B52FB] text-presentation pb-2'> Orléans</span> 
+                <h1>Développeur web freelance basé à 
+                    <span className='text-[#7B52FB] text-presentation pb-2 my-2'> Orléans</span> 
                     <span> et disponible partout en France</span> 
+                </h1>
             </div>
             <div>
                 <TexteHomePage />
             </div>
         </div>
-        <div className='my-12 flex justify-start '>
-            <Link smooth to='/#offres' className='text-xl py-3 px-8 rounded-full bg-[#FF6501] text-white hover:text-white transition duration-300 ease-in-out hover:scale-105'>
-                Offres 
+        <div className='my-8 flex justify-start '>
+            <Link smooth to='/#offres' className='text-lg uppercase py-3 px-4 mr-8 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
+                Voir les offres 
             </Link>
-            <Link smooth to='/#contact' className='mx-8 text-xl py-3 px-8 rounded-full bg-[#FF6501] text-white hover:text-white transition duration-300 ease-in-out hover:scale-105'>
+            <Link smooth to='/#contact' className='text-lg uppercase py-3 px-6 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
                 Devis gratuit
             </Link>
         </div>

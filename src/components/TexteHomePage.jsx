@@ -6,20 +6,20 @@ const TexteHomePage = () => {
 
   return (
     <div>
-        <div className='flex flex-col text-lg text-home-page mt-8'>
-                <h1 className='my-2' >
+        <div className='flex flex-col text-lg text-home-page pt-4'>
+                <h1 className='mb-1' >
                   <span className=''>
-                    Création de site internet et boutique en ligne.
+                    Création de votre site vitrine, site institutionnel, site e-commerce et application web.
                   </span>
                 </h1>
-                <h1 className='my-2'>
+                <h1 className='my-1'>
                   <span>
                     Amélioration de votre image de marque et identité visuelle.
                   </span>
                 </h1>
-                <h1 className='my-2 fancy'>
+                <h1 className='my-1'>
                   <span>
-                    Ensemble développons votre activité.
+                    Ensemble faisons de votre projet un succès !
                   </span>
                 </h1>
             </div>

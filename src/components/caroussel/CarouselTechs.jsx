@@ -30,6 +30,12 @@ const CarouselTechs = () => {
                 <img src={outil_woocommerce_site_internet} alt="outil_woocommerce_site_internet" style={{width : '6rem', height : '6rem'}}/>
             </div>
             <div className='slide'>
+                <img src={outil_html_site_internet} alt="outil_html_site_internet" style={{width : '6rem', height : '6rem'}}/>
+            </div>
+            <div className='slide'>
+                <img src={outil_css_site_internet} alt="outil_css_site_internet" style={{width : '6rem', height : '6rem'}}/>
+            </div>
+            <div className='slide'>
                 <img src={outil_react_site_internet} alt="outil_react_site_internet" style={{width : '6rem', height : '6rem'}}/>
             </div>
             <div className='slide'>

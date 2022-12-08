@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Blog from './pages/Blog'
 import NavBar from './components/NavBar'
 import './App.css'
+import MycryptodataDetail from './components/MycryptodataDetail'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/blog" element={<Blog />} />
+          <Route path="/#realisations/mycryptodata" element={<MycryptodataDetail />} />
         </Routes>
       </Router>
     </div>

@@ -1,2 +1,1 @@
-# starter-kit-react
 # AlefaWeb

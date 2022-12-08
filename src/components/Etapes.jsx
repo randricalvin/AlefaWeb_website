@@ -21,8 +21,13 @@ const Etapes = () => {
   return (
     <section className='font-serif2 mt-20 text-black'>
         <div className='w-5/6 mx-auto my-16'>
-            <span className='text-4xl text-white font-serif'> Les étapes indispensables pour la <span className='text-[#7B52FB] title-outil pb-2'>réalisation de votre projet</span></span>
-            <p className='font-serif2 techno-presentation text-white w-2/3 mt-8'>
+            {/* <span className='text-4xl text-white font-serif'> Les étapes indispensables pour la <span className='text-[#7B52FB] title-outil pb-2'>réalisation de votre projet</span></span> */}
+            <div className='text-4xl flex text-white font-serif'>Les étapes indispensables pour le 
+                <div className='text-[#7B52FB]'>
+                    <span>&nbsp; succès de votre projet</span>
+                </div>
+            </div>
+            <p className='font-serif2 techno-presentation text-white w-2/3 mt-4'>
                 Pour bien mener votre projet et vous offrir les meilleurs service, il est important de suivre une méthodologie rigoureuse. <br/> C'est pourquoi je vous propose de suivre les étapes suivantes.
             </p>
         </div>

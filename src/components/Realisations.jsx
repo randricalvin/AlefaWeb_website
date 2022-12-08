@@ -1,7 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import { BrowserRouter, Link } from 'react-router-dom'
 import "./Realisations.scss"
 import realisations from '../data/realisations'
-import RealisationsList from './RealisationsList'
+import trait_marquage from '../assets/trait_marquage.svg'
+import mycryptodata from '../assets/realisations/mycryptodata.svg'
+import chatchatgo from '../assets/realisations/chatchatgo.svg'
+import blob4 from '../assets/blob4.svg'
 
 const Realisations = () => {
 
@@ -10,19 +14,52 @@ const Realisations = () => {
 
   return (
     <div id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 w-5/6 mx-auto'>
-        <h1 className='text-4xl font-bold font-serif title-offre text-[#7B52FB] pb-6'>
-          Mes réalisations
-        </h1>
+        <div>
+          <img src={blob4} alt="blob-animation" className='blob-animation4' />
+        </div>
+        <div className='flex flex-col items-center'>
+          <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>
+            Mes réalisations
+          </span>
+          <img src={trait_marquage} alt="trait marquage" className='w-5/6'/>
+        </div>
 
         <p className='my-12 font-serif2 text-service w-full'>
           Vous trouverez ci-dessous mes dernières réalisations. J'espère que nous aurons l'occasion de travailler ensemble et de <span className='font-bold'>voir votre projet apparaître dans cette liste.</span> 
         </p>
-          <div className='flex justify-between'>
-            {realisations.map((realisation, index) => {
-              return <RealisationsList key={index} realisation={realisation} 
-              />
-            }
-            )}
+
+        <div className='flex gap-6'>
+          <div className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 ease-in-out hover:scale-105 duration-300'>
+              <BrowserRouter>
+                  <a href='/#realisations/mycryptodata'>
+                      <div className="overflow-hidden">
+                          <img className="image-realisation w-full" src={mycryptodata} alt="projets cryptodata réalisés"/>
+                          <div className="px-6 py-4 bg-white">
+                              <div className="font-extrabold text-xl mb-2">MyCryptoData</div>
+                              <p className="text-base">
+                                Un site de suivi des prix des cryptomonnaies
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+              </BrowserRouter>
+          </div>
+
+          <div className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 ease-in-out hover:scale-105 duration-300'>
+              <BrowserRouter>
+                  <Link to="/#realisations/chatchatgo">
+                      <div className="overflow-hidden">
+                          <img className="image-realisation w-full" src={chatchatgo} alt="projets chatchatgo réalisés"/>
+                          <div className="px-6 py-4 bg-white">
+                              <div className="font-extrabold text-xl mb-2">Chatchatgo</div>
+                              <p className="text-base">
+                                Une application web de messagerie instantanée
+                              </p>
+                          </div>
+                      </div>
+                  </Link>
+              </BrowserRouter>
+          </div>
         </div>
     </div>
 

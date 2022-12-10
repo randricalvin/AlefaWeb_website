@@ -4,18 +4,19 @@ import Home from './pages/Home'
 import Blog from './pages/Blog'
 import NavBar from './components/NavBar'
 import './App.css'
-import MycryptodataDetail from './components/MycryptodataDetail'
+import MycryptodataBlog from './components/MycryptodataBlog'
 
 function App() {
+// make a function when the user click on the link to the blog page, it will scroll to the top of the page and hide the home page
 
   return (
     <div className="App">
-      <NavBar />
-      <Home />
       <Router>
+      <NavBar />
         <Routes>
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/#realisations/mycryptodata" element={<MycryptodataDetail />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />}/>
+          <Route path="/realisations/mycryptodata" element={<MycryptodataBlog />} />
         </Routes>
       </Router>
     </div>

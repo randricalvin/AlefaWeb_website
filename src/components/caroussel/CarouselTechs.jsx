@@ -12,6 +12,8 @@ import outil_photoshop_creation_graphique from '../../assets/caroussel/outil_pho
 import outil_indesign_creation_graphique from '../../assets/caroussel/outil_indesign_creation_graphique.svg'
 import outil_illustrator_creation_graphique from '../../assets/caroussel/outil_illustrator_creation_graphique.svg'
 import outil_elementor_site_internet from '../../assets/caroussel/outil_elementor_site_internet.svg'
+import outil_tailwind_site_internet from '../../assets/caroussel/outil_tailwind_site_internet.svg'
+import outil_shopify_site_internet from '../../assets/caroussel/outil_shopify_site_internet.svg'
 
 import "./CarouselTechs.scss"
 
@@ -30,10 +32,16 @@ const CarouselTechs = () => {
                 <img src={outil_woocommerce_site_internet} alt="outil_woocommerce_site_internet" style={{width : '6rem', height : '6rem'}}/>
             </div>
             <div className='slide'>
+                <img src={outil_shopify_site_internet} alt="outil_shopify_site_internet" style={{width : '6rem', height : '6rem'}}/>
+            </div>
+            <div className='slide'>
                 <img src={outil_html_site_internet} alt="outil_html_site_internet" style={{width : '6rem', height : '6rem'}}/>
             </div>
             <div className='slide'>
                 <img src={outil_css_site_internet} alt="outil_css_site_internet" style={{width : '6rem', height : '6rem'}}/>
+            </div>
+            <div className='slide'>
+                <img src={outil_tailwind_site_internet} alt="outil_tailwind_site_internet" style={{width : '6rem', height : '6rem'}}/>
             </div>
             <div className='slide'>
                 <img src={outil_react_site_internet} alt="outil_react_site_internet" style={{width : '6rem', height : '6rem'}}/>

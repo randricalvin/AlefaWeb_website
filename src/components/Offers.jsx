@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import "./Offers.scss"
 import { BrowserRouter } from 'react-router-dom'
-import { HashLink as Link } from 'react-router-hash-link'
+import {  HashLink } from 'react-router-hash-link'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import trait_marquage from '../assets/trait_marquage.svg'
@@ -84,11 +84,10 @@ const Offers = () => {
                   </ul>
                 </div>
               </div>
-              <BrowserRouter>
                 <div className='flex justify-center mb-8'>
-                  <Link smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</Link>
+                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
-              </BrowserRouter>
+              
             </div>
 
             {/* 2 */}
@@ -155,11 +154,10 @@ const Offers = () => {
                   </ul>
                 </div>
               </div>
-              <BrowserRouter>
                 <div className='flex justify-center mb-8'>
-                  <Link smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</Link>
+                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
-              </BrowserRouter>
+              
             </div>
 
             {/* 3 */}
@@ -234,11 +232,10 @@ const Offers = () => {
                   </ul>
                 </div>
               </div>
-              <BrowserRouter>
                 <div className='flex justify-center mb-8'>
-                  <Link smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</Link>
+                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
-              </BrowserRouter>
+              
             </div>
 
             {/* 4 */}
@@ -274,11 +271,10 @@ const Offers = () => {
                   </ul>
                 </div>
               </div>
-              <BrowserRouter>
                 <div className='flex justify-center mb-8'>
-                  <Link smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</Link>
+                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
-              </BrowserRouter>
+              
             </div>
           </div>
 
@@ -292,11 +288,10 @@ const Offers = () => {
             <h1 className='mx-12 text-white text-xl'>
               Vous avez une demande spécifique ? <br/> N'hésitez pas à me contacter !
             </h1>
-            <BrowserRouter>
                 <div className='flex justify-center mx-12'>
-                  <Link smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Me contacter</Link>
+                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Me contacter</HashLink>
                 </div>
-            </BrowserRouter>
+            
           </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { HashLink as Link } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import discussion_dev_project from '../assets/steps/discussion_dev_project.svg'
@@ -94,11 +94,10 @@ const Etapes = () => {
             </div>
         </div>
 
-        <BrowserRouter>
+          
             <div className='flex justify-center pt-8 pb-14'>
-                <Link smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</Link>
+                <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
             </div>
-        </BrowserRouter>
     </section>
   )
 }

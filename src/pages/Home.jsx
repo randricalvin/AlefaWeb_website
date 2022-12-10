@@ -9,7 +9,7 @@ import Realisations from '../components/Realisations'
 const Home = () => {
 
   return (
-      <div className='home'>
+      <div className='home' id='home'>
         <Accueil />
         <Services />
         <Techs />

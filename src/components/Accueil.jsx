@@ -13,12 +13,12 @@ const Accueil = () => {
         <img src={blob} alt="blob animation" className='blob-animation1'/>
         
       <div className='accueil-presentation flex flex-col justify-around'>
-        <div className='flex justify-around'>
+        <div className='flex justify-between'>
           <div className='w-1/2 flex items-center'>
             <Presentation />
           </div>
           <div className=""data-aos="fade-up" data-aos-duration="1000">
-            <img src={developpeur_orleans} alt="Développeur web freelance à Orléans" className='homeimage'/>
+            <img src={developpeur_orleans} alt="Développeur web freelance à Orléans" className='homeimage ml-8'/>
           </div>
         </div>
 

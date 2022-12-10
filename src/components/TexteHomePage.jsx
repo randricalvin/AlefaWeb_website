@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import './TexteHomePage.scss'
 
 const TexteHomePage = () => {
-  
 
   return (
     <div>

@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Link } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import "./Realisations.scss"
 import realisations from '../data/realisations'
 import trait_marquage from '../assets/trait_marquage.svg'
@@ -30,8 +31,8 @@ const Realisations = () => {
 
         <div className='flex gap-6'>
           <div className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 ease-in-out hover:scale-105 duration-300'>
-              <BrowserRouter>
-                  <a href='/#realisations/mycryptodata'>
+               
+                  <HashLink to='/realisations/mycryptodata'>
                       <div className="overflow-hidden">
                           <img className="image-realisation w-full" src={mycryptodata} alt="projets cryptodata réalisés"/>
                           <div className="px-6 py-4 bg-white">
@@ -41,13 +42,13 @@ const Realisations = () => {
                               </p>
                           </div>
                       </div>
-                  </a>
-              </BrowserRouter>
+                  </HashLink>
+                
           </div>
 
           <div className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 ease-in-out hover:scale-105 duration-300'>
-              <BrowserRouter>
-                  <Link to="/#realisations/chatchatgo">
+                
+                  <HashLink to="/realisations/chatchatgo">
                       <div className="overflow-hidden">
                           <img className="image-realisation w-full" src={chatchatgo} alt="projets chatchatgo réalisés"/>
                           <div className="px-6 py-4 bg-white">
@@ -57,8 +58,8 @@ const Realisations = () => {
                               </p>
                           </div>
                       </div>
-                  </Link>
-              </BrowserRouter>
+                  </HashLink>
+                
           </div>
         </div>
     </div>

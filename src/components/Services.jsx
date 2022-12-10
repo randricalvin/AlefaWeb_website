@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import "./Services.scss"
@@ -50,11 +50,11 @@ const Services = () => {
                     <img src={creation_site_internet} alt="creation_site_internet_orleans" className='h-14'/>
                   </div>
                   <p class="mb-3 text-base">Création de votre site internet sur-mesure, responsive et optimisé pour le référencement naturel.</p>
-                  <BrowserRouter>
-                  <Link smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out ">
+                  
+                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out ">
                       Se renseigner
-                  </Link>
-                  </BrowserRouter>
+                  </HashLink>
+                  
               </div>
             </div>
 
@@ -66,11 +66,11 @@ const Services = () => {
                       <img src={refonte_site_internet} alt="refonte_site_internet_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 text-base"> Proposition d'une refonte (graphique ou technique) de votre site internet existant, pour le rendre plus performant, accessible et moderne.</p>
-                  <BrowserRouter>
-                  <Link smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
+                  
+                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
                       Se renseigner
-                  </Link>
-                  </BrowserRouter>
+                  </HashLink>
+                  
               </div>
             </div>
 
@@ -82,11 +82,11 @@ const Services = () => {
                       <img src={creation_boutique_en_ligne} alt="creation_boutique_en_ligne_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 text-base"> Création de votre site e-commerce avec WordPress (WooCommerce) et Shopify, pour vendre vos produits en ligne et développer votre activité.</p>
-                  <BrowserRouter>
-                  <Link smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
+                  
+                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
                       Se renseigner
-                  </Link>
-                  </BrowserRouter>
+                  </HashLink>
+                  
               </div>
             </div>
           </div>
@@ -100,11 +100,11 @@ const Services = () => {
                       <img src={webdesign_graphic_design} alt="webdesigner_graphic_designer_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 text-base">Création de votre identité visuelle et de votre maquette (ergonome et fonctionnelle), pour donner une image professionnelle à votre activité.</p>
-                  <BrowserRouter>
-                  <Link smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
+                  
+                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
                       Se renseigner
-                  </Link>
-                  </BrowserRouter>
+                  </HashLink>
+                  
               </div>
             </div>
 
@@ -116,11 +116,11 @@ const Services = () => {
                     <img src={responsive_design} alt="site_responsive_orleans" className='h-16'/>
                   </div>
                 <p class="mb-3 text-base">Rendre votre site internet responsive, ergonomique, avec une navigation optimale sur tous les supports (ordinateur, tablette, smartphone).</p>
-                <BrowserRouter>
-                <Link smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
+                
+                <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
                     Se renseigner
-                </Link>
-                </BrowserRouter>
+                </HashLink>
+                
             </div>
             </div>
 
@@ -132,11 +132,11 @@ const Services = () => {
                       <img src={maintenance_site_internet} alt="maintenance_site_internet_orleans" className='h-16'/>
                     </div>
                   <p class="mb-3 text-base"> Maintenance de votre site internet, pour une mise à jour régulière et une sécurité optimale.</p>
-                  <BrowserRouter>
-                  <Link smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
+                  
+                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
                       Se renseigner
-                  </Link>
-                  </BrowserRouter>
+                  </HashLink>
+                  
               </div>
             </div>
           </div>

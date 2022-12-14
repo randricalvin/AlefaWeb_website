@@ -14,6 +14,7 @@ const realisations = [
     {
         id: 'chatchatgo',
         title: 'Chatchatgo',
+        content: "Développement d'une application web de messagerie instantanée. Cette application permet aux utilisateurs de discuter en temps réel avec d'autres utilisateurs.",
         description: 'Une application web de messagerie instantanée',
         image: chatchatgo,
         link: 'https://chatchatgo.fr'

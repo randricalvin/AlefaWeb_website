@@ -10,8 +10,6 @@ import blob4 from '../assets/blob4.svg'
 
 const Realisations = () => {
 
-  console.log(realisations)
-
 
   return (
     <div id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 w-5/6 mx-auto'>
@@ -29,7 +27,7 @@ const Realisations = () => {
           Vous trouverez ci-dessous mes dernières réalisations. J'espère que nous aurons l'occasion de travailler ensemble et de <span className='font-bold'>voir votre projet apparaître dans cette liste.</span> 
         </p>
 
-        <div className='flex gap-6'>
+        <div className='flex gap-6 pb-6 mb-16'>
           <div className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 ease-in-out hover:scale-105 duration-300'>
                
                   <HashLink to='/realisations/mycryptodata'>

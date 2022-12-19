@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import './App.css'
 import MycryptodataBlog from './components/MycryptodataBlog'
 import ChatchatgoBlog from './components/ChatchatgoBlog'
+import Modal from './components/Modal'
 
 function App() {
 // make a function when the user click on the link to the blog page, it will scroll to the top of the page and hide the home page

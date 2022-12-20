@@ -130,6 +130,8 @@
   .accueil {
     height: 100vh;
     padding-top: 8rem;
+    width: 1140px;
+    margin: 0 auto;
   }
 
   .accueil-presentation {

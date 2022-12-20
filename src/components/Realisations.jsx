@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import "./Realisations.scss"
@@ -7,9 +7,12 @@ import trait_marquage from '../assets/trait_marquage.svg'
 import mycryptodata from '../assets/realisations/mycryptodata.svg'
 import chatchatgo from '../assets/realisations/chatchatgo.svg'
 import blob4 from '../assets/blob4.svg'
+import Aos from 'aos'
 
 const Realisations = () => {
-
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
 
   return (
     <div id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 w-5/6 mx-auto'>
@@ -28,10 +31,10 @@ const Realisations = () => {
         </p>
 
         <div className='flex gap-6 pb-6 mb-16'>
-          <div className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 ease-in-out hover:scale-105 duration-300'>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
                
                   <HashLink to='/realisations/mycryptodata'>
-                      <div className="overflow-hidden">
+                      <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
                           <img className="image-realisation w-full" src={mycryptodata} alt="projets cryptodata réalisés"/>
                           <div className="px-6 py-4 bg-white">
                               <div className="font-extrabold text-xl mb-2">MyCryptoData</div>
@@ -44,10 +47,10 @@ const Realisations = () => {
                 
           </div>
 
-          <div className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 ease-in-out hover:scale-105 duration-300'>
-                
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
+ 
                   <HashLink to="/realisations/chatchatgo">
-                      <div className="overflow-hidden">
+                      <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
                           <img className="image-realisation w-full" src={chatchatgo} alt="projets chatchatgo réalisés"/>
                           <div className="px-6 py-4 bg-white">
                               <div className="font-extrabold text-xl mb-2">Chatchatgo</div>

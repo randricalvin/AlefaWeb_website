@@ -7,6 +7,7 @@ import './App.css'
 import MycryptodataBlog from './components/MycryptodataBlog'
 import ChatchatgoBlog from './components/ChatchatgoBlog'
 import Modal from './components/Modal'
+import MentionsLegales from './components/MentionsLegales'
 
 function App() {
 // make a function when the user click on the link to the blog page, it will scroll to the top of the page and hide the home page
@@ -20,6 +21,7 @@ function App() {
           <Route path="/blog" element={<Blog />}/>
           <Route path="/realisations/mycryptodata" element={<MycryptodataBlog />} />
           <Route path="/realisations/chatchatgo" element={<ChatchatgoBlog />} />
+          <Route path="/mentionslegales" element={<MentionsLegales />} />
         </Routes>
       </Router>
     </div>

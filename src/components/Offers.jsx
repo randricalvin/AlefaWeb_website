@@ -25,6 +25,7 @@ const Offers = () => {
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>
         </div>
+        <p className='w-5/6 mx-auto text-service mt-12'>Vous souhaitez développer votre activité en ligne ? Je vous propose des <span className='font-bold'>solutions adaptées à vos besoins et votre budget.</span></p>
 
 
         <div className='flex flex-col items-start mx-12'>
@@ -32,7 +33,7 @@ const Offers = () => {
             {/* 1 */}
             <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div className=''>
-                <h5 class="text-2xl font-extrabold uppercase text-center">Site vitrine<br/>standard</h5>
+                <h5 class="text-2xl font-extrabold uppercase text-center title-offre">Site vitrine<br/>standard</h5>
                 <div className='flex justify-center'>
                   <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress</h5>
                 </div>
@@ -93,8 +94,7 @@ const Offers = () => {
             {/* 2 */}
             <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
-                <h5 class="text-2xl font-bold uppercase text-center">Site vitrine</h5>
-                <h5 class="text-2xl font-bold uppercase text-center">sur mesure</h5>
+                <h5 class="text-2xl font-extrabold uppercase text-center">Site vitrine <br/> sur mesure</h5>
                 <div className='flex justify-center'>
                   <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec langages de programmation</h5>
                 </div>
@@ -110,10 +110,6 @@ const Offers = () => {
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Proposition de maquette</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Charte graphique</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -163,8 +159,7 @@ const Offers = () => {
             {/* 3 */}
             <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
-                <h5 class="text-2xl font-bold uppercase text-center">Site</h5>
-                <h5 class="text-2xl font-bold uppercase text-center">e-commerce</h5>
+                <h5 class="text-2xl font-extrabold uppercase text-center">Site <br/> e-commerce</h5>
                 <div className='flex justify-center'>
                   <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress ou Shopify</h5>
                 </div>
@@ -180,10 +175,6 @@ const Offers = () => {
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Proposition de maquette</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Charte graphique</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>

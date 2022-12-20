@@ -5,6 +5,7 @@ import Offers from '../components/Offers'
 import Contact from '../components/Contact'
 import Techs from '../components/Techs'
 import Realisations from '../components/Realisations'
+import Footer from '../components/Footer'
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
         <Offers />
         <Realisations />
         <Contact />
+        <Footer />
       </div>
 
   )

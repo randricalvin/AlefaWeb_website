@@ -44,49 +44,38 @@ const Services = () => {
           <div className='flex gap-8'>
             {/* 1 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3 '>
-              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200  shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200  shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+                  <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>1.</span>
                   <div className='flex justify-between items-center'>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Création <br/> de site internet</h5>
                     <img src={creation_site_internet} alt="creation_site_internet_orleans" className='h-14'/>
                   </div>
                   <p class="mb-3 text-base">Création de votre site internet sur-mesure, responsive et optimisé pour le référencement naturel.</p>
                   
-                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out ">
-                      Se renseigner
-                  </HashLink>
-                  
               </div>
             </div>
 
             {/* 2 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+                    <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>2.</span>
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Refonte <br/>de site internet</h5>
                       <img src={refonte_site_internet} alt="refonte_site_internet_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 text-base"> Proposition d'une refonte (graphique ou technique) de votre site internet existant, pour le rendre plus performant, accessible et moderne.</p>
-                  
-                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
-                      Se renseigner
-                  </HashLink>
-                  
               </div>
             </div>
 
             {/* 3 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+                    <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>3.</span>
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Création <br/>de boutique en ligne</h5>
                       <img src={creation_boutique_en_ligne} alt="creation_boutique_en_ligne_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 text-base"> Création de votre site e-commerce avec WordPress (WooCommerce) et Shopify, pour vendre vos produits en ligne et développer votre activité.</p>
-                  
-                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
-                      Se renseigner
-                  </HashLink>
-                  
               </div>
             </div>
           </div>
@@ -94,52 +83,44 @@ const Services = () => {
           <div className='flex gap-8 my-16'>
             {/* 4 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+                    <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>4.</span>
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Webdesign <br/>& Graphic design</h5>
                       <img src={webdesign_graphic_design} alt="webdesigner_graphic_designer_orleans" className='h-14'/>
                     </div>
-                  <p class="mb-3 text-base">Création de votre identité visuelle et de votre maquette (ergonome et fonctionnelle), pour donner une image professionnelle à votre activité.</p>
-                  
-                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
-                      Se renseigner
-                  </HashLink>
-                  
+                  <p class="mb-3 text-base">Création de votre identité visuelle et de votre maquette (ergonome et fonctionnelle), pour donner une image professionnelle à votre activité.</p>   
               </div>
             </div>
 
             {/* 5 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-            <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+            <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+                  <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>5.</span>
                   <div className='flex justify-between items-center'>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Responsive design</h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Responsive <br/>design</h5>
                     <img src={responsive_design} alt="site_responsive_orleans" className='h-16'/>
                   </div>
                 <p class="mb-3 text-base">Rendre votre site internet responsive, ergonomique, avec une navigation optimale sur tous les supports (ordinateur, tablette, smartphone).</p>
-                
-                <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
-                    Se renseigner
-                </HashLink>
-                
             </div>
             </div>
 
             {/* 6 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
-              <div class="card flex flex-col justify-between p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+              <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2 ease-in-out hover:scale-105 duration-300">
+                    <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>6.</span>
                     <div className='flex justify-between items-center'>
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Maintenance <br/>de site internet</h5>
                       <img src={maintenance_site_internet} alt="maintenance_site_internet_orleans" className='h-16'/>
                     </div>
                   <p class="mb-3 text-base"> Maintenance de votre site internet, pour une mise à jour régulière et une sécurité optimale.</p>
-                  
-                  <HashLink smooth to="/#contact" class="inline-flex items-center justify-center w-1/2 mx-auto py-2 text-sm font-bold uppercase text-center border-2 border-[#FF6501] rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out">
-                      Se renseigner
-                  </HashLink>
-                  
               </div>
             </div>
           </div>
+        </div>
+
+        <div className='flex justify-center pb-14'>
+                <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif2">Demander un devis</HashLink>
         </div>
       </div>
     </div>

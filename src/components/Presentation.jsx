@@ -20,10 +20,10 @@ const Presentation = () => {
             </div>
         </div>
         <div className='my-8 flex justify-start '>
-            <HashLink smooth to='/#offres' className='text-lg uppercase py-3 px-4 mr-8 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
+            <HashLink smooth to='/#offres' className='text-sm uppercase px-5 py-3 mr-8 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
                 Voir les offres 
             </HashLink>
-            <HashLink smooth to='/#contact' className='text-lg uppercase py-3 px-6 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
+            <HashLink smooth to='/#contact' className='text-sm uppercase px-5 py-3 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
                 Devis gratuit
             </HashLink>
         </div>

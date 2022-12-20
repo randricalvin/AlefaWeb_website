@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import Blog from '../pages/Blog'
 import Logo_Monochrome_white from '../assets/Logo_Monochrome_white.svg'
@@ -10,22 +11,24 @@ import tiktok from '../assets/contact/tiktok.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-[#1B1559] h-80 text-white font-serif2'>
+    <div className='bg-[#1B1559] h-96 text-white font-serif2'>
         <div className='w-5/6 mx-auto flex h-full justify-between'>
-            <div className='w-1/2 flex flex-col justify-between items-start my-4'>
+            <div className='w-1/2 flex flex-col justify-between items-start my-8'>
                 <img src={Logo_Monochrome_white} alt="logo développeur orléans" className='h-16'/>
                 <div className='text-justify w-5/6'>
                     <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Développeur web indépendant</h1>
-                    <p className='text-base'>Développeur web en freelance, je propose mes services pour la création de sites internet, d'applications web.</p>
+                    <p className='text-base'>Développeur web en freelance, je propose mes services pour la création de sites internet et applications web.</p>
                     <p className='text-base'>Passionné par la nouvelle technologie, je mets à votre disposition mes compétences pour la bonne réalisation de votre projet.</p>
                 </div>
                 <div className='flex'>
                     <p className='text-white text-base'>© 2023 - Tous droits réservés -</p>
-                    <p className='text-white text-base'>&nbsp; Mentions légales</p>
+                    <Link to='/mentionslegales'>
+                        <p className='text-white text-base'>&nbsp; Mentions légales</p>
+                    </Link>
                 </div>
             </div>
 
-            <div className='my-4 flex flex-col justify-between w-1/3'>
+            <div className='my-8 flex flex-col justify-between w-1/3'>
                 <div>
                     <h1 className='text-white text-xl font-extrabold uppercase mb-2'>contact</h1>
                     <div className='flex'> 
@@ -58,7 +61,7 @@ const Footer = () => {
                 
             </div>
 
-            <div className='flex flex-col my-4'>
+            <div className='flex flex-col my-8'>
                 <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Site</h1>
                 <HashLink  smooth to='/#' className='text-base hover:text-[#fd7d28]'>Accueil</HashLink>
                 <HashLink  smooth to='/#services' className='text-base hover:text-[#fd7d28]'>Services</HashLink>

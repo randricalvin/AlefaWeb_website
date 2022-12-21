@@ -1,0 +1,33 @@
+.presentation-header {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .presentation {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .presentation-title {
+        font-size: 1.75rem;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .button-presentation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .button-presentation1 {
+        margin-right: 0.5rem;
+    }
+}

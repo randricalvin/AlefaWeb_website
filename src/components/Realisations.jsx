@@ -15,7 +15,7 @@ const Realisations = () => {
   }, [])
 
   return (
-    <div id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 w-5/6 mx-auto'>
+    <section id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 w-5/6 mx-auto'>
         <div>
           <img src={blob4} alt="blob-animation" className='blob-animation4' />
         </div>
@@ -63,7 +63,7 @@ const Realisations = () => {
                 
           </div>
         </div>
-    </div>
+    </section>
 
   )
 }

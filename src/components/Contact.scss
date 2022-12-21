@@ -2,3 +2,12 @@
     width: 1000px;
     margin: 0 auto;
 }
+
+.blob-animation5 {
+    position: absolute;
+    width: 30rem;
+    margin-top: 10rem;
+    left: -310px;
+    filter: blur(20px);
+    z-index: -1;
+  }

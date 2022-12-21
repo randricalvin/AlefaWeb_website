@@ -4,6 +4,7 @@ import trait_marquage from '../assets/trait_marquage.svg'
 import './Contact.scss'
 import Modal from './Modal'
 import Aos from 'aos'
+import blob5 from '../assets/blob5.svg'
 
 const Contact = () => {
   const [showModal, setShowModal] = useState(false)
@@ -28,7 +29,10 @@ const Contact = () => {
 
 
   return (
-    <div className='flex-col w-5/6 mx-auto' id="contact">
+    <section className='flex-col w-5/6 mx-auto' id="contact">
+        <div>
+          <img src={blob5} alt="blob-animation" className='blob-animation5' />
+        </div>
       <div className='flex flex-col items-center'>
           <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-20 uppercase'>
             Contactez-moi
@@ -65,7 +69,7 @@ const Contact = () => {
         {/* on affiche le modal si showModal est true */}
         {showModal && <Modal setShowModal={setShowModal}/>}
     </form>
-</div>
+</section>
   );
 };
 

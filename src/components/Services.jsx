@@ -18,7 +18,7 @@ const Services = () => {
     Aos.init({ duration: 1000 })
   }, [])
   return (
-    <div className='body'>
+    <section className='body'>
         <div>
           <img src={blob2} alt="blob-animation" className='blob-animation2' />
         </div>
@@ -123,7 +123,7 @@ const Services = () => {
                 <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif2">Demander un devis</HashLink>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

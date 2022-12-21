@@ -129,9 +129,9 @@
 
   .accueil {
     height: 100vh;
-    padding-top: 8rem;
     width: 1140px;
     margin: 0 auto;
+    padding-top: 4rem;
   }
 
   .accueil-presentation {
@@ -154,13 +154,13 @@
 .blob-animation1 {
   position: absolute;
   width: 40rem;
-  left: -310px;
+  left: -400px;
   z-index: -1;
   filter: blur(20px);
 }
 
 .homeimage {
-  height: 26rem;
+  height: 35rem;
 }
 
 /* 

@@ -1,90 +1,10 @@
-// .text-home-page1 {
-//     width: 85%;
-//     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-//     white-space: nowrap;
-//     overflow: hidden;
-//     border-right: 3px solid #7B52FB;
-//     font-size: 1.2rem;
-//   }
-  
-//   @keyframes typing {
-//     from {
-//       width: 0
-//     }
-//   }
-      
-//   @keyframes blink {
-//     50% {
-//       border-color: transparent
-//     }
-//   }
+@media screen and (max-width: 768px) {
+    .text-home-page {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.5;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 
-
-  
-//   .text-home-page2 {
-//     width: 85%;
-//     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-//     white-space: nowrap;
-//     overflow: hidden;
-//     border-right: 3px solid #7B52FB;
-//     font-size: 1.2rem;
-//     visibility: hidden;
-//   }
-
-//   .text-home-page2 {
-//     animation-delay: 4s;
-//   }
-  
-//   @keyframes typing {
-//     from {
-//       width: 0
-//     }
-//   }
-      
-//   @keyframes blink {
-//     50% {
-//       border-color: transparent
-//     }
-//   }
-
-
-// .text-home-page {
-//     position: relative;
-//     overflow: hidden;
-//     animation: text-reveal 1000ms forwards;
-    
-//     &:after {
-//       content: '';
-//       display: block;
-//       position: absolute;
-//       top: 0;
-//       right: 100%;
-//       bottom: 0;
-//       left: 0;
-//       background: #7B52FB;
-//       animation: text-reveal-aft 1000ms forwards;
-//     }
-//   }
-//   @keyframes text-reveal {
-//     50% {
-//       color: #fff;
-//     }
-//     51% {
-//       color: #444;
-//     }
-//     100% {
-//       color: #444;
-//     }
-//   }
-//   @keyframes text-reveal-aft {
-//     0% {
-//     }
-//     50% {
-//       right: 0;
-//       left: 0;
-//     }
-//     100% {
-//       right: 0;
-//       left: 100%;
-//     }
-//   }

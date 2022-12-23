@@ -15,25 +15,14 @@ const Techs = () => {
   return (
     <div className='bg-[#1B1559]'>
         <div className='techno pt-10 w-5/6 mx-auto'>
-            <div className='text-4xl flex text-white font-serif'>Travaillons ensemble avec les 
-                <div className='text-[#7B52FB]'>
-                    <span>&nbsp; meilleurs outils</span>
-                </div>
-            </div>
-            <div className='font-serif2 techno-presentation text-white w-2/3 mt-8'>
+            <h1 className='lg:text-4xl flex text-white font-serif title-tech'>Travaillons ensemble avec les meilleurs outils
+            </h1>
+            <div className='font-serif2 techno-presentation text-white mt-4 text-tech'>
                 <h1>
-                    Pour vous offrir le meilleur service, je travaille avec WordPress et Shopify (outil de gestion de contenus).
-                </h1>
-
-                <h1>
-                    Je peux aussi utiliser d'autres langages afin de personnaliser votre site.
-                </h1>
-
-                <h1>
-                    L'objectif est de vous offrir un produit 100% adapté à vos besoins.
-                </h1>
-                <h1>
-                    Un site internet rapide, sécurisé, et qui fonctionne sur tous les appareils.
+                    Pour vous offrir le meilleur service, je travaille avec WordPress et Shopify (outil de gestion de contenus). 
+                    <br/> Je peux aussi utiliser d'autres langages afin de personnaliser votre site.
+                    <br/> L'objectif est de vous offrir un produit 100% adapté à vos besoins.
+                    <br/> Un site internet rapide, sécurisé, et qui fonctionne sur tous les appareils.
                 </h1>
             </div>
         </div>

@@ -18,7 +18,7 @@ const Services = () => {
     Aos.init({ duration: 1000 })
   }, [])
   return (
-    <section className='body'>
+    <section className='body service'>
         <div>
           <img src={blob2} alt="blob-animation" className='blob-animation2' />
         </div>
@@ -41,16 +41,16 @@ const Services = () => {
 
 
         <div className='flex flex-col'>
-          <div className='flex gap-8'>
+          <div className='flex gap-8 card-service'>
             {/* 1 */}
-            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3 '>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3 card-parent'>
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200  shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2">
                   <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>1.</span>
                   <div className='flex justify-between items-center'>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Création <br/> de site internet</h5>
+                    <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Création <br/> de site internet</h5>
                     <img src={creation_site_internet} alt="creation_site_internet_orleans" className='h-14'/>
                   </div>
-                  <p class="mb-3 text-base">Création de votre site internet sur-mesure, responsive et optimisé pour le référencement naturel.</p>
+                  <p class="mb-3 lg:text-base description-service">Création de votre site internet sur-mesure, responsive et optimisé pour le référencement naturel.</p>
                   
               </div>
             </div>
@@ -60,10 +60,10 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>2.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Refonte <br/>de site internet</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Refonte <br/>de site internet</h5>
                       <img src={refonte_site_internet} alt="refonte_site_internet_orleans" className='h-14'/>
                     </div>
-                  <p class="mb-3 text-base"> Proposition d'une refonte (graphique ou technique) de votre site internet existant, pour le rendre plus performant, accessible et moderne.</p>
+                  <p class="mb-3 lg:text-base description-service"> Proposition d'une refonte (graphique ou technique) de votre site internet existant, pour le rendre plus performant, accessible et moderne.</p>
               </div>
             </div>
 
@@ -72,24 +72,24 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>3.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Création <br/>de boutique en ligne</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Création <br/>de boutique en ligne</h5>
                       <img src={creation_boutique_en_ligne} alt="creation_boutique_en_ligne_orleans" className='h-14'/>
                     </div>
-                  <p class="mb-3 text-base"> Création de votre site e-commerce avec WordPress (WooCommerce) et Shopify, pour vendre vos produits en ligne et développer votre activité.</p>
+                  <p class="mb-3 lg:text-base description-service"> Création de votre site e-commerce avec WordPress (WooCommerce) et Shopify, pour vendre vos produits en ligne et développer votre activité.</p>
               </div>
             </div>
           </div>
 
-          <div className='flex gap-8 my-16'>
+          <div className='flex gap-8 my-16 card-service'>
             {/* 4 */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='w-1/3'>
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>4.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Webdesign <br/>& Graphic design</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Webdesign <br/>& Graphic design</h5>
                       <img src={webdesign_graphic_design} alt="webdesigner_graphic_designer_orleans" className='h-14'/>
                     </div>
-                  <p class="mb-3 text-base">Création de votre identité visuelle et de votre maquette (ergonome et fonctionnelle), pour donner une image professionnelle à votre activité.</p>   
+                  <p class="mb-3 lg:text-base description-service">Création de votre identité visuelle et de votre maquette (ergonome et fonctionnelle), pour donner une image professionnelle à votre activité.</p>   
               </div>
             </div>
 
@@ -98,10 +98,10 @@ const Services = () => {
             <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2">
                   <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>5.</span>
                   <div className='flex justify-between items-center'>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Responsive <br/>design</h5>
+                    <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Responsive <br/>design</h5>
                     <img src={responsive_design} alt="site_responsive_orleans" className='h-16'/>
                   </div>
-                <p class="mb-3 text-base">Rendre votre site internet responsive, ergonomique, avec une navigation optimale sur tous les supports (ordinateur, tablette, smartphone).</p>
+                <p class="mb-3 lg:text-base description-service">Rendre votre site internet responsive, ergonomique, avec une navigation optimale sur tous les supports (ordinateur, tablette, smartphone).</p>
             </div>
             </div>
 
@@ -110,17 +110,17 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>6.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Maintenance <br/>de site internet</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Maintenance <br/>de site internet</h5>
                       <img src={maintenance_site_internet} alt="maintenance_site_internet_orleans" className='h-16'/>
                     </div>
-                  <p class="mb-3 text-base"> Maintenance de votre site internet, pour une mise à jour régulière et une sécurité optimale.</p>
+                  <p class="mb-3 lg:text-base description-service"> Maintenance de votre site internet, pour une mise à jour régulière et une sécurité optimale.</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className='flex justify-center pb-14'>
-                <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif2">Demander un devis</HashLink>
+                <HashLink smooth to="/#contact" className="text-white button-service bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif2">Demander un devis</HashLink>
         </div>
       </div>
     </section>

@@ -1,28 +1,16 @@
-.timeline {
-    position: absolute;
-    right: 0;
-}
+@media screen and (max-width: 768px) {
+    .card-step {
+        width: 83.33%;
+        margin-top: 2rem;
+    }
 
-.number-timeline {
-    position: absolute;
-}
-
-.phase {
-    // text-decoration: underline black solid 0.4rem;
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-step {
+        width: 83.33%;
+        margin-top: 2rem;
+    }
 
-.chiffre {
-    position: absolute;
-    right : 50%;
-    top: 50%;
-    transform: translate(50%, -50%);
-    font-size: 10rem;
-    z-index: 1;
-}
-
-.card-steps {
-    height: 20rem;
-    width: 20rem;
 }

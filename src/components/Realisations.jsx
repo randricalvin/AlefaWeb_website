@@ -34,7 +34,7 @@ const Realisations = () => {
           <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
                
                   <HashLink to='/realisations/mycryptodata'>
-                      <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
+                      <div className="overflow-hidden">
                           <img className="image-realisation w-full" src={mycryptodata} alt="projets cryptodata réalisés"/>
                           <div className="px-6 py-4 bg-white">
                               <div className="font-extrabold text-xl mb-2">MyCryptoData</div>

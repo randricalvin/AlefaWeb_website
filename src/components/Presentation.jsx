@@ -11,11 +11,16 @@ const Presentation = () => {
         <div className='presentation-header'>
             <div className='text-4xl'>
                 <div className='presentation-title'>
-                    <h1>Développeur web freelance basé à 
+                    <h1 className=''>Développeur web freelance basé à 
                         <span className='text-[#FF6501] text-presentation pb-2 my-2'> Orléans </span> 
                         et disponible partout en France
                     </h1>
                 </div>
+
+                <div className=""data-aos="fade-up" data-aos-duration="1000">
+                    <img src={developpeur_orleans} alt="Développeur web freelance à Orléans" className='homeimage-mobile'/>
+                </div>
+
                 <div>
                     <TexteHomePage />
                 </div>

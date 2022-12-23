@@ -40,3 +40,84 @@
       background-position: 0em;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .services {
+      width: 100vw;
+    }
+
+    .card-service {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+
+    .card {
+      min-height: 20rem;
+      width: 20.5rem;
+    }
+
+
+    .blob-animation2 {
+      left: 100px;
+      top: 70rem;
+    }
+    
+    .button-service {
+      width: 15rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .description-service {
+      font-size: 1.25rem;
+    }
+
+    .name-service {
+      font-size: 1.5rem;
+    }
+    
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .services {
+      width: 100vw;
+    }
+
+    .card-service {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+
+    .card {
+      width: 42.5rem;
+    }
+
+
+    .blob-animation2 {
+      left: 100px;
+      top: 80rem;
+    }
+    
+    .button-service {
+      width: 15rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .description-service {
+      font-size: 1.3rem;
+    }
+
+    .name-service {
+      font-size: 1.6rem;
+    }
+
+  }

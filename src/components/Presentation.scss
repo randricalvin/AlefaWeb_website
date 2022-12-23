@@ -3,11 +3,16 @@
     margin: 0 auto;
 }
 
+.homeimage-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
-    .presentation {
+    .presentation-header {
         width: 100vw;
         display: flex;
         flex-direction: column;
+        padding-top: 4rem;
     }
     
     
@@ -29,5 +34,49 @@
 
     .button-presentation1 {
         margin-right: 0.5rem;
+    }
+
+    .homeimage {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .presentation {
+        width: 100vw;
+        margin-top: 5rem;
+    }
+
+    .presentation-title {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .button-presentation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .button-presentation1 {
+        margin-right: 1.5rem;
+    }
+
+    .homeimage {
+        display: none;
+    }
+
+    .homeimage-mobile {
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
     }
 }

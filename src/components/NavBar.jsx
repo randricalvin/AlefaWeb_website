@@ -38,7 +38,7 @@ const NavBar = () => {
         </nav>
 
         <nav>
-            <section className="MOBILE-MENU flex lg:hidden justify-end">
+            <section className="MOBILE-MENU mobile flex lg:hidden justify-end">
                     <HashLink  smooth to='/#' className='logo fixed flex justify-center items-center w-full'>
                         <div className='mt-4'>
                             <img src={lettrage_rgb} alt='logo alefaweb' className='h-11' />
@@ -66,7 +66,7 @@ const NavBar = () => {
                                 }`}></span>
                         </div>
                 </button>
-                <div className={`${isNavOpen ? "showMenuNav" : "hideMenuNav"}`}>
+                <div className={`menu-mobile ${isNavOpen ? "showMenuNav" : "hideMenuNav"}`}>
                     <div className="menu-burger-mobile flex justify-center items-center">
                         <ul className="min-h-[250px]"
                         // close menu burger onclick
@@ -106,11 +106,10 @@ const NavBar = () => {
         height: 70vh;
         top: 4rem;
         left: 0;
-        background: white;
         z-index: 100;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         backdrop-filter: saturate(180%) blur(5px);
         background: hsla(0,0%,100%,.8);

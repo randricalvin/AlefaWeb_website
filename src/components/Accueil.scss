@@ -2,34 +2,15 @@
 
 @media screen and (max-width: 768px) {
     .accueil {
-      width: 100%;
+      width: 100vw;
     }
     
 
     .blob-animation1 {
        margin-left: 100px;
     }
-}
-
-@media screen and (min-width: 768px) {
-    .accueil {
-      width: 100%;
-    }
-    
-    .accueil-presentation {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    
-    .accueil-presentation-element {
-    }
-
-    .accueil-presentation-element {
-       
-    }
 
     .blob-animation1 {
-       margin-left: 100px;
+        margin-left: 200px;
     }
 }

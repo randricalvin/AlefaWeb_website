@@ -17,7 +17,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 83.33%;
+        width: 90%;
         margin: 0 auto;
         
     }
@@ -34,8 +34,21 @@
     .condition {
         font-size: 0.8rem;
         line-height: 1rem;
-        width: 83.33%;
+        width: 90%;
         margin: 0 auto;
+    }
+
+
+    .offre-special {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .offre-special-text {
+        margin: 0  1rem 1rem 1rem;
+        text-align: center;
     }
   }
 
@@ -44,8 +57,9 @@
         .card-offers {
             display: flex;
             flex-direction: column;
+            align-items: center;
+            width: 90%;
             margin: 0 auto;
-            width: 50%;
             
         }
     
@@ -56,5 +70,23 @@
         .text-offers {
             font-size: 1.1rem;
             line-height: 1.25rem;        
+        }
+
+        .condition {
+            font-size: 0.8rem;
+            line-height: 1rem;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .offre-special {
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+        }
+    
+        .offre-special-text {
+            margin: 0  1rem 1rem 1rem;
+            text-align: left;
         }
 }

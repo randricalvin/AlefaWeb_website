@@ -15,7 +15,7 @@ const Realisations = () => {
   }, [])
 
   return (
-    <section id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 w-5/6 mx-auto'>
+    <section id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width'>
         <div>
           <img src={blob4} alt="blob-animation" className='blob-animation4' />
         </div>
@@ -26,7 +26,7 @@ const Realisations = () => {
           <img src={trait_marquage} alt="trait marquage" className='w-5/6'/>
         </div>
 
-        <p className='my-12 font-serif2 text-service w-full'>
+        <p className='my-12 font-serif2 text-service'>
           Vous trouverez ci-dessous mes dernières réalisations. J'espère que nous aurons l'occasion de travailler ensemble et de <span className='font-bold'>voir votre projet apparaître dans cette liste.</span> 
         </p>
 

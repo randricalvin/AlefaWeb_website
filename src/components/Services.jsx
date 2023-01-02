@@ -22,7 +22,7 @@ const Services = () => {
         <div>
           <img src={blob2} alt="blob-animation" className='blob-animation2' />
         </div>
-      <div id='services' className='services text-2xl justify-start items-center flex flex-col w-5/6 mx-auto' >
+      <div id='services' className='services text-2xl justify-start items-center flex flex-col lg:w-5/6 mx-auto content-width' >
         <div className='flex flex-col items-center'>
           <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>
             Mes services

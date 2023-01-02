@@ -14,7 +14,7 @@ const Techs = () => {
 
   return (
     <div className='bg-[#1B1559]'>
-        <div className='techno pt-10 w-5/6 mx-auto'>
+        <div className='techno pt-10 lg:w-5/6 mx-auto content-width'>
             <h1 className='lg:text-4xl flex text-white font-serif title-tech'>Travaillons ensemble avec les meilleurs outils
             </h1>
             <div className='font-serif2 techno-presentation text-white mt-4 text-tech'>

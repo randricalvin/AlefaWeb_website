@@ -25,19 +25,20 @@ const Offers = () => {
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>
         </div>
-        <p className='w-5/6 mx-auto text-service mt-12'>Vous souhaitez développer votre activité en ligne ? Je vous propose des <span className='font-bold'>solutions adaptées à vos besoins et votre budget.</span></p>
+        <p className='content-width lg:w-5/6 mx-auto text-service mt-12 text-service'>Vous souhaitez développer votre activité en ligne ? Je vous propose des <span className='font-bold'>solutions adaptées à vos besoins et votre budget.</span></p>
 
 
         <div className='flex flex-col items-start mx-12'>
-          <div className='flex gap-4 justify-between mt-12'>
+          <div className='flex gap-4 justify-between mt-12 card-offers'>
+
             {/* 1 */}
-            <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="lg:w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div className=''>
                 <h5 class="text-2xl font-extrabold uppercase text-center title-offre">Site vitrine<br/>standard</h5>
                 <div className='flex justify-center'>
                   <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress</h5>
                 </div>
-                <h5 class="mb-8 text-sm font-medium text-center h-14">Une solution pour présenter votre activité, vos produits et/ou service, afin de permettre à des clients de vous trouver.</h5>
+                <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Une solution pour présenter votre activité, vos produits et/ou service, afin de permettre à des clients de vous trouver.</h5>
               <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
                   <span class="text-5xl flex font-extrabold tracking-tight">999<span class="text-2xl font-extrabold tracking-tight">€ *</span></span> 
@@ -86,19 +87,19 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
+                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
               
             </div>
 
             {/* 2 */}
-            <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="lg:w-1/4 card-offer max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
                 <h5 class="text-2xl font-extrabold uppercase text-center">Site vitrine <br/> sur mesure</h5>
                 <div className='flex justify-center'>
-                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec langages de programmation</h5>
+                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec des outils spécialisés</h5>
                 </div>
-                <h5 class="mb-8 text-sm font-medium text-center h-14">Un développement sur mesure, c’est l’assurance d’un site qui correspond exactement à vos attentes.</h5>
+                <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Un développement sur mesure, c’est l’assurance d’un site qui correspond exactement à vos attentes.</h5>
                 <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
                   <span class="text-5xl flex font-extrabold tracking-tight">1 499<span class="text-2xl font-extrabold tracking-tight">€ *</span></span> 
@@ -151,21 +152,21 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
+                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
               
             </div>
 
             {/* 3 */}
-            <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="card-offer lg:w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
                 <h5 class="text-2xl font-extrabold uppercase text-center">Site <br/> e-commerce</h5>
                 <div className='flex justify-center'>
                   <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress ou Shopify</h5>
                 </div>
-                <h5 class="mb-8 text-sm font-medium text-center h-14">Vous souhaitez vendre vos produits en ligne ? Optez pour un site qui propose vos produits à des clients 24h/24 et 7j/7.</h5>
+                <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Vous souhaitez vendre vos produits en ligne ? Optez pour un site qui propose vos produits à des clients 24h/24 et 7j/7.</h5>
                 <div class="flex flex-col items-center dark:text-white justify-center">
-                  <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
+                  <span class="text-base font-medium text-gray-500 text-center uppercase mb-2 ">À partir de</span>
                   <span class="text-5xl flex font-extrabold tracking-tight">2 499<span class="text-2xl font-extrabold tracking-tight">€ *</span></span> 
                 </div>
               </div>
@@ -224,17 +225,17 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
+                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
               
             </div>
 
             {/* 4 */}
-            <div data-aos="zoom-in" class="w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="card-offer lg:w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
                 <h5 class="text-2xl font-bold uppercase text-center">Maintenance</h5>
                 <h5 class="text-2xl font-bold uppercase text-center">site internet</h5>
-                <h5 class="mb-8 mt-11 text-sm font-medium text-center h-14">Un ensemble d’actions qui vont garder votre site en bonne santé et à jour, sur le plan technique et éditorial.</h5>
+                <h5 class="mb-8 mt-11 lg:text-sm font-medium text-center h-14 text-offers">Un ensemble d’actions qui vont garder votre site en bonne santé et à jour, sur le plan technique et éditorial.</h5>
               <div class="flex dark:text-white justify-center mt-16">
                   <span class="text-5xl font-extrabold tracking-tight">30</span>
                   <span class="text-2xl font-extrabold tracking-tight">€/h</span>
@@ -263,14 +264,14 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
+                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase">Demander un devis</HashLink>
                 </div>
               
             </div>
           </div>
 
           <div className='my-4'>
-            <p className='text-sm'>
+            <p className='text-sm condition'>
               L'ensemble des prix indiqués sont en Hors-Taxes. * Prix à titre indicatif : ils peuvent varier en fonction des demandes et les choix du client.
             </p>
           </div>

@@ -10,3 +10,51 @@
     left: -310px;
     filter: blur(20px);
   }
+
+
+  @media screen and (max-width: 768px) { 
+    .card-offers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 83.33%;
+        margin: 0 auto;
+        
+    }
+
+    .card-offer {
+        margin-top: 1rem;
+    }
+
+    .text-offers {
+        font-size: 1.1rem;
+        line-height: 1.25rem;        
+    }
+
+    .condition {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        width: 83.33%;
+        margin: 0 auto;
+    }
+  }
+
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .card-offers {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 50%;
+            
+        }
+    
+        .card-offer {
+            margin-top: 1rem;
+        }
+
+        .text-offers {
+            font-size: 1.1rem;
+            line-height: 1.25rem;        
+        }
+}

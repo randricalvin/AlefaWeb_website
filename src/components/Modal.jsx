@@ -2,7 +2,7 @@ import React from 'react'
 import './Modal.scss'
 import crossmodal from '../assets/crossmodal.svg'
 
-const Modal = ({setShowModal}) => {
+const Modal = ({ setShowModal }) => {
     
 
 
@@ -10,10 +10,7 @@ const Modal = ({setShowModal}) => {
     <div>
         <div className='modal-overlay bg-modal'>
             <div className='modal-wrapper' aria-modal aria-hidden tabIndex={-1} role='dialog'>
-                <div className='modal-header flex justify-end py-4 px-4'>
-                    <img src={crossmodal} alt="fermer" className='cursor-pointer' onClick={() => setShowModal(false)}/>
-                </div>
-                <div className='h-full flex flex-col mt-6 items-center text-xl font-serif2'>
+                <div className='h-full flex flex-col mt-6 items-center text-xl font-serif2 text-modal'>
                     <p>
                         Merci ! 
                     </p> 
@@ -23,6 +20,14 @@ const Modal = ({setShowModal}) => {
                     <p>
                         Je vous répondrai dans les plus brefs délais.
                     </p>
+                <div className='modal-header py-4 px-4'>
+                    <button 
+                    type="submit" 
+                    className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase"
+                    onClick={() => setShowModal(false)}
+                    >    
+                    fermer</button>
+                </div>
                 </div>
             </div>
         </div>

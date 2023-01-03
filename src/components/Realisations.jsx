@@ -30,8 +30,8 @@ const Realisations = () => {
           Vous trouverez ci-dessous mes dernières réalisations. J'espère que nous aurons l'occasion de travailler ensemble et de <span className='font-bold'>voir votre projet apparaître dans cette liste.</span> 
         </p>
 
-        <div className='flex gap-6 pb-6 mb-16'>
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
+        <div className='flex gap-6 lg:pb-6 lg:mb-16 card-project'>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
                
                   <HashLink to='/realisations/mycryptodata'>
                       <div className="overflow-hidden">
@@ -47,7 +47,7 @@ const Realisations = () => {
                 
           </div>
 
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='card-realisation font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
  
                   <HashLink to="/realisations/chatchatgo">
                       <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">

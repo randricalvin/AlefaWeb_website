@@ -25,11 +25,11 @@ const Offers = () => {
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>
         </div>
-        <p className='content-width lg:w-5/6 mx-auto text-service mt-12 text-service'>Vous souhaitez développer votre activité en ligne ? Je vous propose des <span className='font-bold'>solutions adaptées à vos besoins et votre budget.</span></p>
+        <p className='content-width lg:w-5/6 mx-auto text-service lg:mt-12 text-service'>Vous souhaitez développer votre activité en ligne ? Je vous propose des <span className='font-bold'>solutions adaptées à vos besoins et votre budget.</span></p>
 
 
         <div className='flex flex-col items-start lg:mx-12'>
-          <div className='flex gap-4 justify-between mt-12 card-offers card-tablet'>
+          <div className='flex gap-4 justify-between lg:mt-12 card-offers card-tablet'>
 
             {/* 1 */}
             <div data-aos="zoom-in" class="lg:w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">

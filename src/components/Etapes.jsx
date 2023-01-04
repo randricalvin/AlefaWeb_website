@@ -8,6 +8,7 @@ import signature_dev_project from '../assets/steps/signature_dev_project.svg'
 import developpement_dev_project from '../assets/steps/developpement_dev_project.svg'
 import delivery_dev_project from '../assets/steps/delivery_dev_project.svg'
 import "./Etapes.scss"
+import "./Services.scss"
 
 const Etapes = () => {
     useEffect(() => {
@@ -23,7 +24,7 @@ const Etapes = () => {
         <div className='lg:w-5/6 mx-auto lg:my-16 content-width'>
             {/* <span className='text-4xl text-white font-serif'> Les étapes indispensables pour la <span className='text-[#7B52FB] title-outil pb-2'>réalisation de votre projet</span></span> */}
             <h1 className='lg:text-4xl flex text-white font-serif title-tech'>Les étapes indispensables pour le succès de votre projet</h1>
-            <p className='font-serif2 techno-presentation text-white mt-4 text-tech'>
+            <p className='font-serif2 techno-presentation text-white mt-4 text-tech lg:leading-8'>
                 Pour bien mener votre projet et vous offrir les meilleurs service, il est important de suivre une méthodologie rigoureuse. <br/> C'est pourquoi je vous propose de suivre les étapes suivantes.
             </p>
         </div>

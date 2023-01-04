@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col lg:my-8 contact-info3'>
-                <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Site</h1>
+                <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Plan du Site</h1>
                 <HashLink  smooth to='/#' className='text-base hover:text-[#fd7d28]'>Accueil</HashLink>
                 <HashLink  smooth to='/#services' className='text-base hover:text-[#fd7d28]'>Services</HashLink>
                 <HashLink  smooth to='/#offres' className='text-base hover:text-[#fd7d28]'>Offres</HashLink>

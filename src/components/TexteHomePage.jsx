@@ -5,10 +5,10 @@ const TexteHomePage = () => {
 
   return (
     <div>
-        <div className='flex flex-col text-lg text-home-page pt-4'>
+        <div className='flex flex-col lg:text-lg text-home-page pt-4'>
                 <h1 className='mb-1' >
                   <span className=''>
-                    Création de votre site vitrine, site institutionnel, site e-commerce et application web.
+                    Création de votre site vitrine (standard ou sur-mesure), site e-commerce et application web.
                   </span>
                 </h1>
                 <h1 className='my-1'>

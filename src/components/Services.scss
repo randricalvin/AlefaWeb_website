@@ -78,12 +78,22 @@
     }
 
     .description-service {
-      font-size: 1.25rem;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: left;
     }
 
     .name-service {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
+
+    .text-service {
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+  }
     
   }
 
@@ -123,7 +133,15 @@
     }
 
     .name-service {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
+
+    .text-service {
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: 1.7;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+  }
 
   }

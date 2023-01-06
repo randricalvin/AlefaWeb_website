@@ -20,9 +20,9 @@ const Techs = () => {
             <div className='font-serif2 techno-presentation text-white mt-4 text-tech lg:leading-8'>
                 <h1>
                     Pour vous offrir le meilleur service, je travaille avec WordPress et Shopify (outil de gestion de contenus). 
-                    <br/> Je peux aussi utiliser d'autres langages afin de personnaliser votre site.
-                    <br/> L'objectif est de vous offrir un produit 100% adapté à vos besoins.
-                    <br/> Un site internet rapide, sécurisé, et qui fonctionne sur tous les appareils.
+                    <br/> Je peux aussi utiliser d'autres outils de programmation afin de personnaliser votre site.
+                    <br/> L'objectif est de vous offrir un produit 100% adapté à votre besoin.
+                    <br/> Un site internet avec un design unique et une ergonomie optimale, qui fonctionne sur tous les appareils.
                 </h1>
             </div>
         </div>

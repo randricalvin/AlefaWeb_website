@@ -19,12 +19,12 @@ const Footer = () => {
                 <div className='text-justify w-5/6 description-footer'>
                     <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Développeur web indépendant</h1>
                     <p className='text-base'>Développeur web en freelance, je propose mes services pour la création de sites internet et applications web.</p>
-                    <p className='text-base'>Passionné par la nouvelle technologie, je mets à votre disposition mes compétences pour la bonne réalisation de votre projet.</p>
+                    <p className='text-base'>Passionné par les nouvelles technologies, je mets à votre disposition mes compétences pour la bonne réalisation de votre projet.</p>
                 </div>
                 <div className='lg:flex mention-desk'>
                     <p className='text-white text-base'>© 2023 - Tous droits réservés -</p>
                     <Link to='/mentionslegales'>
-                        <p className='text-white text-base'>Mentions légales</p>
+                        <p className='text-white text-base'>&nbsp;Mentions légales</p>
                     </Link>
                 </div>
             </div>
@@ -74,7 +74,7 @@ const Footer = () => {
             <div className='lg:flex mention-mobile'>
                     <p className='text-white text-base mention-mobile1'>© 2023 - Tous droits réservés -</p>
                     <Link to='/mentionslegales'>
-                        <p className='text-white text-base mention-mobile2'>Mentions légales</p>
+                        <p className='text-white text-base mention-mobile2'>&nbsp;Mentions légales</p>
                     </Link>
             </div>
         </div>

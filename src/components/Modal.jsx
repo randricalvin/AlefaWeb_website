@@ -10,7 +10,7 @@ const Modal = ({ setShowModal }) => {
     <div>
         <div className='modal-overlay bg-modal'>
             <div className='modal-wrapper' aria-modal aria-hidden tabIndex={-1} role='dialog'>
-                <div className='h-full flex flex-col mt-6 items-center text-xl font-serif2 text-modal'>
+                <div className='h-full flex flex-col mt-6 items-center justify-center text-xl font-serif2 text-modal'>
                     <p>
                         Merci ! 
                     </p> 

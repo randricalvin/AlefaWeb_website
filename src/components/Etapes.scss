@@ -1,7 +1,11 @@
 @media screen and (max-width: 768px) {
     .card-step {
-        width: 83.33%;
-        margin-top: 2rem;
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    .content-width {
+        width: 90%;
     }
 
 }
@@ -9,8 +13,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .card-step {
-        width: 83.33%;
+        width: 90%;
         margin-top: 2rem;
+    }
+
+    .content-width {
+        width: 90%;
     }
 
 }

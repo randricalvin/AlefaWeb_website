@@ -1,8 +1,7 @@
 @media screen and (max-width: 768px) {
     .text-home-page {
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.8rem;
         width: 90%;
         margin: 0 auto;
     }
@@ -11,6 +10,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .text-home-page {
         width: 90%;
+        font-size: 1.4rem;
         margin: 0 auto;
         
     }

@@ -22,14 +22,14 @@ const Services = () => {
         <div>
           <img src={blob2} alt="blob-animation" className='blob-animation2' />
         </div>
-      <div id='services' className='services text-2xl justify-start items-center flex flex-col w-5/6 mx-auto' >
+      <div id='services' className='services text-2xl justify-start items-center flex flex-col lg:w-5/6 mx-auto content-width' >
         <div className='flex flex-col items-center'>
-          <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>
+          <span className='text-3xl font-bold font-serif text-[#7B52FB] lg:pt-8 uppercase'>
             Mes services
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>
         </div>
-        <div className='my-12 font-serif2 flex flex-wrap text-service'>
+        <div className='lg:my-12 font-serif2 flex flex-wrap text-service'>
           <span >
             Je donne vie à vos idées et je vous accompagne dans la <span className='font-bold'>création de votre site internet.</span> 
           </span>

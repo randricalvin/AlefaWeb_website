@@ -1,0 +1,28 @@
+.mentionslegales {
+    height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title-mention {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .subtitle-mention {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .title-mention {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .subtitle-mention {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+}

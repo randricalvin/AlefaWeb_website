@@ -9,7 +9,7 @@ const Presentation = () => {
   return (
     <section className='font-serif presentation flex items-center'>
         <div className='presentation-header'>
-            <div className='text-4xl'>
+            <div className='lg:text-4xl'>
                 <div className='presentation-title'>
                     <h1 className=''>Développeur web freelance basé à 
                         <span className='text-[#FF6501] text-presentation pb-2 my-2'> Orléans </span> 
@@ -25,12 +25,12 @@ const Presentation = () => {
                     <TexteHomePage />
                 </div>
             </div>
-            <div className='button-presentation'>
-                <div className='my-8 flex justify-start'>
-                    <HashLink smooth to='/#offres' className='button-presentation1 text-sm uppercase px-5 py-3 lg:mr-8 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
+            <div className=''>
+                <div className='my-8 flex lg:justify-start button-presentation'>
+                    <HashLink smooth to='/#offres' className='lg:mr-10 text-white button-presentation1 bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif2'>
                         Voir les offres 
                     </HashLink>
-                    <HashLink smooth to='/#contact' className='text-sm uppercase px-5 py-3 rounded-full bg-[#fd7d28] text-white hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>
+                    <HashLink smooth to='/#contact' className='text-white button-presentation2 bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif2'>
                         Devis gratuit
                     </HashLink>
                 </div>

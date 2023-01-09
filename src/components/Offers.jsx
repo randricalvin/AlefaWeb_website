@@ -17,7 +17,6 @@ const Offers = () => {
   return (
     <div id='offres' className='offres text-2xl justify-start items-center flex flex-col font-serif2'>
       <Helmet>
-        <title>Mes offres | Développeur web à Orléans - Création site internet</title>
         <link rel="canonical" href="https://www.alefaweb.com/#offres" />
         <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Ensemble nous chosirons la solution adaptée à votre besoin." />
         <meta property='og:title' content='Mes offres | Développeur web freelance à Orléans - Création site internet à Orléans' />

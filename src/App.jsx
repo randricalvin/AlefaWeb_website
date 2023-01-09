@@ -6,8 +6,8 @@ import NavBar from './components/NavBar'
 import './App.css'
 import MycryptodataBlog from './components/MycryptodataBlog'
 import ChatchatgoBlog from './components/ChatchatgoBlog'
-import Modal from './components/Modal'
 import MentionsLegales from './components/MentionsLegales'
+import Blog1 from './components/blog/Blog1'
 
 function App() {
 // make a function when the user click on the link to the blog page, it will scroll to the top of the page and hide the home page
@@ -19,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />}/>
+          <Route path="/blog/les-7-avantages-d-avoir-un-site-internet" element={<Blog1 />}/>
           <Route path="/realisations/mycryptodata" element={<MycryptodataBlog />} />
           <Route path="/realisations/chatchatgo" element={<ChatchatgoBlog />} />
           <Route path="/mentionslegales" element={<MentionsLegales />} />

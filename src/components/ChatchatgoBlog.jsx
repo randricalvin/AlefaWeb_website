@@ -1,11 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import chatchatgo from '../assets/realisations/chatchatgo.svg'
 import './MycryptodataBlog.scss'
+import { Helmet } from 'react-helmet'
 
 const MycryptodataBlog = () => {
   return (
-    <div className='font-serif'>
+    <section className='font-serif'>
+      <Helmet>
+        <title>AlefaWeb | Mes réalisation - Chatchatgo (Une application de messagie instantanée)</title>
+        <link rel="canonical" href="https://www.alefaweb.com/realisations/chatchatgo" />
+        <meta name="description" content="Chatchatgo est une application de messagerie instantanée. Cette application permet aux utilisateurs de discuter en temps réel avec d'autres utilisateurs." />
+        <meta property='og:title' content='AlefaWeb | Mes réalisation - Chatchatgo (Une application de messagie instantanée)' />
+        <meta property='og:description' content="Chatchatgo est une application de messagerie instantanée. Cette application permet aux utilisateurs de discuter en temps réel avec d'autres utilisateurs." />
+        <meta property='og:url' content='https://www.alefaweb.com/realisations/chatchatgo' />
+        <meta property='og:image' content='https://www.alefaweb.com/src/assets/realisations/chatchatgo.svg' />
+      </Helmet>
+
         <header className='header-mycryptodata bg-[#0369a1] flex items-start justify-center uppercase text-white lg:text-5xl font-bold py-36 name-blog'> Chatchatgo</header>
       <div className='image-mycryptodata'>
         <img src={chatchatgo} alt="projet chatchatgo" />
@@ -41,7 +51,7 @@ const MycryptodataBlog = () => {
             <a href="https://www.chatchatgo.fr/login" target="_blank" className='text-white lg:w-1/6 button-presentation1 bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif my-8'>Visiter le site</a>
           </div>
       </div>
-    </div>
+    </section>
   )
 }
 

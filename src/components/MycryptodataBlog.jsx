@@ -1,11 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import mycryptodata from '../assets/realisations/mycryptodata.svg'
 import './MycryptodataBlog.scss'
+import { Helmet } from 'react-helmet'
 
 const MycryptodataBlog = () => {
   return (
     <section className='font-serif h-full' id='mycryptodata'>
+      <Helmet>
+        <title>AlefaWeb | Mes réalisations - MyCryptoData (Outil de suivi des prix des cryptomonnaies)</title>
+        <link rel="canonical" href="https://www.alefaweb.com/realisations/mycryptodata" />
+        <meta name="description" content="Outil de suivi en temps réel les variations des cours des différentes cryptomonnaies. L'utilisateur peut également consulter les dernières actualités sur le monde de la cryptomonnaie." />
+        <meta property='og:title' content='Mes réalisations | MyCryptoData' />
+        <meta property='og:description' content="Outil de suivi en temps réel les variations des cours des différentes cryptomonnaies. L'utilisateur peut également consulter les dernières actualités sur le monde de la cryptomonnaie." />
+        <meta property='og:url' content='https://www.alefaweb.com/realisations/mycryptodata' />
+        <meta property='og:image' content={mycryptodata} />
+      </Helmet>
+
         <header className='header-mycryptodata bg-[#201E50] flex items-start justify-center uppercase text-white lg:text-5xl font-bold py-36 name-blog'> Mycryptodata</header>
       <div className='image-mycryptodata'>
         <img src={mycryptodata} alt="projet mycryptodata" />

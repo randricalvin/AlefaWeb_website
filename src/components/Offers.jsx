@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react'
 import "./Offers.scss"
-import { BrowserRouter } from 'react-router-dom'
 import {  HashLink } from 'react-router-hash-link'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import trait_marquage from '../assets/trait_marquage.svg'
 import blob3 from '../assets/blob3.svg'
-import blob4 from '../assets/blob4.svg'
 import { Helmet } from 'react-helmet'
 
 const Offers = () => {
@@ -18,9 +16,9 @@ const Offers = () => {
     <div id='offres' className='offres text-2xl justify-start items-center flex flex-col font-serif2'>
       <Helmet>
         <link rel="canonical" href="https://www.alefaweb.com/#offres" />
-        <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Ensemble nous chosirons la solution adaptée à votre besoin." />
-        <meta property='og:title' content='Mes offres | Développeur web freelance à Orléans - Création site internet à Orléans' />
-        <meta property='og:description' content='Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Ensemble nous chosirons la solution adaptée à votre besoin.' />
+        <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Je vous propose des solutions adaptées à votre besoin et votre budget." />
+        <meta property='og:title' content='AlefaWeb | Mes offres - Création site vitrine et site e-commerce' />
+        <meta property='og:description' content='Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Je vous propose des solutions adaptées à votre besoin et votre budget.' />
         <meta property='og:url' content='https://www.alefaweb.com/#offres' />
       </Helmet>
 

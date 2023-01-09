@@ -31,7 +31,7 @@ const NavBar = () => {
                 </div>
                 <div className='w-1/6'>
                     <div className='flex justify-end'>
-                        <HashLink  smooth to='/#contact' className='flex items-center text-white bg-[#fd7d28] py-2 px-8 rounded-full hover:bg-[#FF6501] hover:text-white transition duration-300 ease-in-out hover:scale-105'>Contact</HashLink>
+                        <HashLink  smooth to='/#contact' className='flex items-center text-white bg-[#fd7d28] py-2 px-8 rounded-full hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110'>Contact</HashLink>
                     </div>
                 </div>
             </section>

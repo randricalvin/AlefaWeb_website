@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 
 const MycryptodataBlog = () => {
   return (
-    <section className='font-serif'>
+    <section className='font-serif mb-20'>
       <Helmet>
         <title>AlefaWeb | Mes réalisation - Chatchatgo (Une application de messagie instantanée)</title>
         <link rel="canonical" href="https://www.alefaweb.com/realisations/chatchatgo" />

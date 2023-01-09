@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import blog from "../data/blog.js"
 import trait_marquage from '../assets/trait_marquage.svg'
-import blob4 from '../assets/blob4.svg'
 import Aos from 'aos'
 
 const Blog = () => {
@@ -10,7 +9,7 @@ const Blog = () => {
     Aos.init({ duration: 1000 })
   }, []) 
   return (
-    <section className='blog mt-20 text-2xl justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width' id='blog'>
+    <section className='blog mt-20 text-2xl justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20' id='blog'>
       
       <div className='flex flex-col items-center'>
           <h1 className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>

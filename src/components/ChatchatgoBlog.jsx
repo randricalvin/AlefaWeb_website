@@ -13,7 +13,7 @@ const MycryptodataBlog = () => {
         <meta property='og:title' content='AlefaWeb | Mes réalisation - Chatchatgo (Une application de messagie instantanée)' />
         <meta property='og:description' content="Chatchatgo est une application de messagerie instantanée. Cette application permet aux utilisateurs de discuter en temps réel avec d'autres utilisateurs." />
         <meta property='og:url' content='https://www.alefaweb.com/realisations/chatchatgo' />
-        <meta property='og:image' content='https://www.alefaweb.com/src/assets/realisations/chatchatgo.svg' />
+        <meta property='og:image' content={chatchatgo} />
       </Helmet>
 
         <header className='header-mycryptodata bg-[#0369a1] flex items-start justify-center uppercase text-white lg:text-5xl font-bold py-36 name-blog'> Chatchatgo</header>

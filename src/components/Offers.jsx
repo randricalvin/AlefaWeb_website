@@ -32,7 +32,7 @@ const Offers = () => {
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>
         </div>
-        <p className='content-width lg:w-5/6 mx-auto text-service lg:mt-12 text-service'>Vous souhaitez développer votre activité en ligne ? Je vous propose des <span className='font-bold'>solutions adaptées à votre besoin et votre budget.</span></p>
+        <p className='content-width lg:w-5/6 mx-auto text-service lg:mt-12 text-service'>Je vous propose des prix compétitifs, pour que le déploiement de l’activité en ligne reste abordable pour votre petite ou moyenne entreprise. Les tarifs sont <span className='font-bold'>adaptés au plus juste pour vous offrir ce dont vous avez vraiment besoin.</span></p>
 
 
         <div className='flex flex-col items-start lg:mx-12'>
@@ -45,10 +45,11 @@ const Offers = () => {
                 <div className='flex justify-center'>
                   <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress</h5>
                 </div>
-                <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Une solution idéale pour présenter votre activité, vos produits et/ou service, afin de permettre à des clients de vous trouver.</h5>
+                <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Une solution idéale pour présenter votre activité, vos produits et/ou service, afin d'avoir une présence sur internet.</h5>
               <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
                   <span class="text-5xl flex font-extrabold tracking-tight">999<span class="text-2xl font-extrabold tracking-tight">€ *</span></span> 
+                  
               </div>
               </div>
               <div className='flex h-full'>
@@ -77,6 +78,10 @@ const Offers = () => {
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Formulaire de contact</span>
+                      </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Intégration d'un outil de réservation</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -134,6 +139,10 @@ const Offers = () => {
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Formulaire de contact + Map</span>
+                      </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Intégration d'un outil de réservation</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -202,7 +211,7 @@ const Offers = () => {
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Intégration des contenus et produits</span>
+                          <span class="text-base font-normal leading-tight">Intégration des contenus et produits fournis</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>

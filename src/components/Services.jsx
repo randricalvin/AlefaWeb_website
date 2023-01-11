@@ -42,7 +42,7 @@ const Services = () => {
             Je donne vie à vos idées et vous accompagne dans la <span className='font-bold'>création de votre site internet.</span> 
           </span>
           <span className=''>
-            Ensemble, nous définissons vos besoins et vos attentes afin de <span className='font-bold'>vous offrir une solution qui vous ressemble.</span>
+            Ensemble, nous définissons vos besoins et vos attentes afin de <span className='font-bold'>vous offrir une solution qui vous convient.</span>
           </span>
 
         </div>
@@ -58,7 +58,7 @@ const Services = () => {
                     <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Création <br/> de site internet</h5>
                     <img src={creation_site_internet} alt="creation_site_internet_orleans" className='h-14'/>
                   </div>
-                  <p class="mb-3 lg:text-base description-service">Création de votre site internet sur-mesure, responsive et optimisé pour le référencement naturel.</p>
+                  <p class="mb-3 lg:text-base description-service">Création de votre site internet sur-mesure, adapté à tous les types d’écran et optimisé pour vous faire apparaître en top des recherches.</p>
                   
               </div>
             </div>
@@ -97,7 +97,7 @@ const Services = () => {
                       <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Webdesign <br/>& Graphic design</h5>
                       <img src={webdesign_graphic_design} alt="webdesigner_graphic_designer_orleans" className='h-14'/>
                     </div>
-                  <p class="mb-3 lg:text-base description-service">Création de votre identité visuelle et de votre maquette (UI et UX design), pour donner une image professionnelle à votre activité.</p>   
+                  <p class="mb-3 lg:text-base description-service">Réalisation de votre charte graphique. Création de votre maquette (UI et UX design), pour mettre en valeur le  professionnalisme de votre activité.</p>   
               </div>
             </div>
 
@@ -109,7 +109,7 @@ const Services = () => {
                     <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Responsive <br/>design</h5>
                     <img src={responsive_design} alt="site_responsive_orleans" className='h-16'/>
                   </div>
-                <p class="mb-3 lg:text-base description-service">Rendre votre site internet responsive, ergonomique, avec une navigation optimale sur tous les supports (ordinateur, tablette, smartphone).</p>
+                <p class="mb-3 lg:text-base description-service">Rendre votre site internet ergonomique, responsive, avec une navigation optimale sur tous les écrans : ordinateur, tablette, smartphone.</p>
             </div>
             </div>
 

@@ -28,7 +28,7 @@ const Presentation = () => {
             <div className=''>
                 <div className='mt-8 flex lg:justify-start button-presentation'>
                     <HashLink smooth to='/#offres' className='lg:mr-10 text-white button-presentation1 bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase'>
-                        Voir les offres 
+                        Voir les tarifs 
                     </HashLink>
                     <HashLink smooth to='/#contact' className='text-white button-presentation2 bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase'>
                         Devis gratuit

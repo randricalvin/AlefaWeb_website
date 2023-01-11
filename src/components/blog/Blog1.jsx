@@ -1,16 +1,26 @@
 import React from 'react'
 import avantages_site from '../../assets/blog/7_avantages_avoir_un_site_web.webp';
-import ScrollBar from '../ScrollBar';
+import { Helmet } from 'react-helmet'
 
 const Blog1 = () => {
  
   return (
     <section className='realisations my-20 justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20'>
+      <Helmet>
+        <title> AlefaWeb | Blog - 7 raisons de créer un site internet pour votre entreprise</title>
+        <link rel="canonical" href="https://www.alefaweb.com/blog/7-raisons-creer-un-site-internet-pour-votre-entreprise" />
+        <meta name="description" content="Un site internet est un outil puissant qui peut vous aider à développer votre entreprise. Il peut vous aider à atteindre vos objectifs commerciaux et à vous démarquer de vos concurrents. Voici 7 avantages d'avoir un site internet pour votre entreprise :" />
+        <meta property='og:title' content='Blog | Les 7 avantages pour votre stucture d’avoir un site internet' />
+        <meta property='og:description' content="Un site internet est un outil puissant qui peut vous aider à développer votre entreprise. Il peut vous aider à atteindre vos objectifs commerciaux et à vous démarquer de vos concurrents. Voici 7 avantages d'avoir un site internet pour votre entreprise :" />
+        <meta property='og:url' content='https://www.alefaweb.com/blog/7-raisons-creer-un-site-internet-pour-votre-entreprise' />
+        <meta property='og:image' content={avantages_site} />
+      </Helmet>
+
       <div className='flex flex-col justify-start w-full lg:my-10'>
-        <h1 className='title-mention lg:text-4xl font-extrabold'>Les 7 avantages pour votre stucture d’avoir un site internet</h1>
+        <h1 className='title-mention lg:text-4xl font-extrabold'>7 raisons de créer un site internet pour votre entreprise</h1>
         <p className=''>Publié le 12/01/2023</p>
       </div>
-      <img src={avantages_site} alt="Les 7 avantages pour votre stucture d’avoir un site internet" className='lg:w-4/6'/>
+      <img src={avantages_site} alt="7 raisons de créer un site internet pour votre entreprise" className='lg:w-4/6'/>
       <p className='text-xl mt-10 subtitle-mention'>Un site internet est un outil puissant qui peut vous aider à développer votre entreprise. Il peut vous aider à atteindre vos objectifs commerciaux et à vous démarquer de vos concurrents. Voici 7 avantages d'avoir un site internet pour votre entreprise :</p>
 
       <div>

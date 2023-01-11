@@ -8,6 +8,7 @@ import mail from '../assets/contact/mail.svg'
 import instagram from '../assets/contact/instagram.svg'
 import linkedin from '../assets/contact/linkedin.svg'
 import tiktok from '../assets/contact/tiktok.svg'
+import facebook from '../assets/contact/facebook.svg'
 import "./Footer.scss"
 
 const Footer = () => {
@@ -49,13 +50,16 @@ const Footer = () => {
                     <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Réseaux sociaux</h1>
                     <div className='flex items-center'>
                         <a href="https://www.instagram.com/alefaweb/" target="_blank">
-                            <img src={instagram} alt="instagram alefaweb" className='h-10 bg-[#7B52FB] rounded-full hover:bg-[#fd7d28] hover:rounded-full p-2'/>
+                            <img src={instagram} alt="instagram alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2'/>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100089605470255" target="_blank">
+                            <img src={facebook} alt="facebook alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mx-2'/>
                         </a>
                         <a href="https://www.google.com" target="_blank">
-                            <img src={linkedin} alt="linkedin alefaweb" className='h-10 bg-[#7B52FB] rounded-full hover:bg-[#fd7d28] hover:rounded-full p-2 mx-6'/>
+                            <img src={linkedin} alt="linkedin alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mr-2'/>
                         </a>
                         <a href="https://www.tiktok.com/@alefaweb?is_from_webapp=1&sender_device=pc" target="_blank">
-                            <img src={tiktok} alt="tiktok alefaweb" className='h-10 bg-[#7B52FB] rounded-full hover:bg-[#fd7d28] hover:rounded-full p-2'/>
+                            <img src={tiktok} alt="tiktok alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2'/>
                         </a>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />}/>
-          <Route path="/blog/les-7-avantages-d-avoir-un-site-internet" element={<Blog1 />}/>
+          <Route path="/blog/7-raisons-creer-un-site-internet-pour-votre-entreprise" element={<Blog1 />}/>
           <Route path="/realisations/mycryptodata" element={<MycryptodataBlog />} />
           <Route path="/realisations/chatchatgo" element={<ChatchatgoBlog />} />
           <Route path="/mentionslegales" element={<MentionsLegales />} />

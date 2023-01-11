@@ -22,7 +22,7 @@ const Etapes = () => {
             {/* <span className='text-4xl text-white font-serif'> Les étapes indispensables pour la <span className='text-[#7B52FB] title-outil pb-2'>réalisation de votre projet</span></span> */}
             <h1 className='lg:text-4xl flex text-white font-serif title-tech'>Les étapes indispensables pour le succès de votre projet</h1>
             <p className='font-serif2 techno-presentation text-white mt-4 text-tech lg:leading-8'>
-                Pour bien mener votre projet et vous offrir les meilleurs services, il est important de suivre une méthodologie rigoureuse. <br/> C'est pourquoi je vous propose de suivre les étapes suivantes pour la réalisation de votre projet.
+                Pour mener à bien un projet, il est important de suivre une méthodologie rigoureuse. <br/> C'est pourquoi je vous présente les étapes que j’ai l’habitude de suivre pour la réalisation de mes projets web et peut-être bientôt du vôtre !
             </p>
         </div>
       
@@ -36,7 +36,7 @@ const Etapes = () => {
                         <h5 className="phase lg:text-xl font-extrabold uppercase my-2 name-service">échange</h5>
                     </div>
                     <p class="lg:text-base my-2 text-justify description-service">
-                        Nous échangeons sur votre besoin et vos attentes afin de définir ensemble le projet. L'objectif est de trouver la solution la plus adaptée à votre demande.
+                        Nous échangeons sur vos besoins et attentes afin de définir ensemble le projet. L'objectif est de trouver la solution la plus adaptée à la fois à votre demande et à votre budget.
                     </p>
                 </div>
             </div>
@@ -64,7 +64,7 @@ const Etapes = () => {
                         <h5 className="phase lg:text-xl font-extrabold uppercase my-2 name-service">Développement</h5>
                     </div>
                     <p class="lg:text-base my-2 text-justify description-service">
-                        Une fois le devis accepté, je commence la partie réalisation, qui comprend la phase de design, de développement, et des tests. Des points de rendez-vous sont prévus pour vous tenir informé de l'avancement du projet.
+                        Une fois l’accord signé, je commence la partie réalisation, qui comprend la phase de design, de développement, et de tests. Des points de rendez-vous sont prévus pour vous tenir informé de l'avancement du projet.
                     </p>
                 </div>
             </div>

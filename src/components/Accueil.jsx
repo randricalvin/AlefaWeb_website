@@ -23,7 +23,7 @@ const Accueil = () => {
         <img src={blob} alt="blob animation" className='blob-animation1'/>
         
       <div className='accueil-presentation flex flex-col justify-around'>
-          <div className='w-1/2 flex items-center accueil-presentation-element'>
+          <div className='flex items-center accueil-presentation-element'>
             <Presentation />
           </div>
 

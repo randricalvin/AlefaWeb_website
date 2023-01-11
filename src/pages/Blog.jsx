@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import blog from "../data/blog.js"
 import trait_marquage from '../assets/trait_marquage.svg'
 import Aos from 'aos'
+import { Helmet } from 'react-helmet'
 
 const Blog = () => {
 
@@ -10,6 +11,14 @@ const Blog = () => {
   }, []) 
   return (
     <section className='blog mt-20 text-2xl justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20' id='blog'>
+      <Helmet>
+        <title>AlefaWeb | Blog - dernières actualités et articles</title>
+        <link rel="canonical" href="https://www.alefaweb.com/blog" />
+        <meta name="description" content="Découvrez les dernières actualités et articles sur le monde du développement web, le design et le marketing digital." />
+        <meta property='og:title' content='Blog | Dernières actualités et articles' />
+        <meta property='og:description' content='Découvrez les dernières actualités et articles sur le monde du développement web, le design et le marketing digital.' />
+        <meta property='og:url' content='https://www.alefaweb.com/blog' />
+      </Helmet>
       
       <div className='flex flex-col items-center'>
           <h1 className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>

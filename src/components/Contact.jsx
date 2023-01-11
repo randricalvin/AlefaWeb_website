@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         <textarea className='w-full h-40 resize-none border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type='message' placeholder='Message' name="message" required/>
         <div className='page-contact-button flex justify-center pt-12 pb-14'>
-          <button type="submit" className="button-service lg:w-1/5 text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase" value="Send Message">Envoyer
+          <button type="submit" className="button-service lg:w-1/5 text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif" value="Send Message">Envoyer
           </button>
         </div>
         {/* on affiche le modal si showModal est true */}

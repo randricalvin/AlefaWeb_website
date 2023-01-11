@@ -3,7 +3,7 @@ import './MentionsLegales.scss'
 
 const MentionsLegales = () => {
   return (
-    <section className='lg:w-5/6 mx-auto font-serif2 leading-8  mentionslegales content-width' id='mentionslegales'>         
+    <section className='lg:w-5/6 mx-auto font-serif2 leading-8  mentionslegales content-width lg:mb-32' id='mentionslegales'>         
       <h1 className='title-mention lg:text-4xl mt-24'>Mentions légales</h1>
                 <p><strong>Client :</strong> tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.</p>
                 <p><strong>Prestations et Services :</strong> <a href="https://www.alefaweb.com/">https://www.alefaweb.com/</a> met à disposition des Clients :</p>

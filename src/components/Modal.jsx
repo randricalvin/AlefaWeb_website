@@ -3,6 +3,13 @@ import './Modal.scss'
 import crossmodal from '../assets/crossmodal.svg'
 
 const Modal = ({ setShowModal }) => {
+
+    // onclick to close the modal redirect to the top of the page
+    const closeModal = () => {
+        setShowModal(false)
+        window.scrollTo(0, 0)
+    }
+
     
 
 
@@ -10,7 +17,7 @@ const Modal = ({ setShowModal }) => {
     <div>
         <div className='modal-overlay bg-modal'>
             <div className='modal-wrapper' aria-modal aria-hidden tabIndex={-1} role='dialog'>
-                <div className='h-full flex flex-col mt-6 items-center text-xl font-serif2 text-modal'>
+                <div className='h-full flex flex-col mt-6 items-center justify-center text-xl font-serif2 text-modal'>
                     <p>
                         Merci ! 
                     </p> 
@@ -24,7 +31,7 @@ const Modal = ({ setShowModal }) => {
                     <button 
                     type="submit" 
                     className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] hover:transition duration-300 ease-in-out font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase"
-                    onClick={() => setShowModal(false)}
+                    onClick={() => closeModal()}
                     >    
                     fermer</button>
                 </div>

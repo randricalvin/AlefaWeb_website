@@ -8,12 +8,17 @@ const TexteHomePage = () => {
         <div className='flex flex-col lg:text-lg text-home-page pt-4'>
                 <h1 className='mb-1' >
                   <span className=''>
-                    Création de votre site vitrine (standard ou sur-mesure), site e-commerce et application web.
+                    Besoin d’un site vitrine ou d’un site e-commerce pour développer votre entreprise ?
                   </span>
                 </h1>
                 <h1 className='my-1'>
                   <span>
-                    Amélioration de votre image de marque et identité visuelle.
+                    Des difficultés à définir votre image de marque et votre identité visuelle ?
+                  </span>
+                </h1>
+                <h1 className='my-1'>
+                  <span>
+                    Je mets mes compétences à votre service sans vous ruiner
                   </span>
                 </h1>
                 <h1 className='my-1'>

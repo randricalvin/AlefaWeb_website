@@ -1,13 +1,12 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import "./Realisations.scss"
-import realisations from '../data/realisations'
 import trait_marquage from '../assets/trait_marquage.svg'
 import mycryptodata from '../assets/realisations/mycryptodata.svg'
 import chatchatgo from '../assets/realisations/chatchatgo.svg'
 import blob4 from '../assets/blob4.svg'
 import Aos from 'aos'
+import { Helmet } from 'react-helmet'
 
 const Realisations = () => {
   useEffect(() => {
@@ -16,6 +15,14 @@ const Realisations = () => {
 
   return (
     <section id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width'>
+      <Helmet>
+        <link rel="canonical" href="https://www.alefaweb.com/#realisations" />
+        <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Cliquez ici pour voir mes dernières réalisations." />
+        <meta property='og:title' content='Mes réalisations | Développeur web freelance à Orléans - Création site internet à Orléans' />
+        <meta property='og:description' content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Cliquez ici pour voir mes dernières réalisations." />
+        <meta property='og:url' content='https://www.alefaweb.com/#realisations' />
+      </Helmet>
+
         <div>
           <img src={blob4} alt="blob-animation" className='blob-animation4' />
         </div>

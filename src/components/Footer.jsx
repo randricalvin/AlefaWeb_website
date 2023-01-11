@@ -8,6 +8,7 @@ import mail from '../assets/contact/mail.svg'
 import instagram from '../assets/contact/instagram.svg'
 import linkedin from '../assets/contact/linkedin.svg'
 import tiktok from '../assets/contact/tiktok.svg'
+import facebook from '../assets/contact/facebook.svg'
 import "./Footer.scss"
 
 const Footer = () => {
@@ -19,12 +20,12 @@ const Footer = () => {
                 <div className='text-justify w-5/6 description-footer'>
                     <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Développeur web indépendant</h1>
                     <p className='text-base'>Développeur web en freelance, je propose mes services pour la création de sites internet et applications web.</p>
-                    <p className='text-base'>Passionné par la nouvelle technologie, je mets à votre disposition mes compétences pour la bonne réalisation de votre projet.</p>
+                    <p className='text-base'>Passionné par les nouvelles technologies, je mets à votre disposition mes compétences pour la bonne réalisation de votre projet.</p>
                 </div>
                 <div className='lg:flex mention-desk'>
                     <p className='text-white text-base'>© 2023 - Tous droits réservés -</p>
                     <Link to='/mentionslegales'>
-                        <p className='text-white text-base'>Mentions légales</p>
+                        <p className='text-white text-base'>&nbsp;Mentions légales</p>
                     </Link>
                 </div>
             </div>
@@ -49,13 +50,16 @@ const Footer = () => {
                     <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Réseaux sociaux</h1>
                     <div className='flex items-center'>
                         <a href="https://www.instagram.com/alefaweb/" target="_blank">
-                            <img src={instagram} alt="instagram alefaweb" className='h-10 bg-[#7B52FB] rounded-full hover:bg-[#fd7d28] hover:rounded-full p-2'/>
+                            <img src={instagram} alt="instagram alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2'/>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100089605470255" target="_blank">
+                            <img src={facebook} alt="facebook alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mx-2'/>
                         </a>
                         <a href="https://www.google.com" target="_blank">
-                            <img src={linkedin} alt="linkedin alefaweb" className='h-10 bg-[#7B52FB] rounded-full hover:bg-[#fd7d28] hover:rounded-full p-2 mx-6'/>
+                            <img src={linkedin} alt="linkedin alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mr-2'/>
                         </a>
                         <a href="https://www.tiktok.com/@alefaweb?is_from_webapp=1&sender_device=pc" target="_blank">
-                            <img src={tiktok} alt="tiktok alefaweb" className='h-10 bg-[#7B52FB] rounded-full hover:bg-[#fd7d28] hover:rounded-full p-2'/>
+                            <img src={tiktok} alt="tiktok alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2'/>
                         </a>
                     </div>
                 </div>
@@ -74,7 +78,7 @@ const Footer = () => {
             <div className='lg:flex mention-mobile'>
                     <p className='text-white text-base mention-mobile1'>© 2023 - Tous droits réservés -</p>
                     <Link to='/mentionslegales'>
-                        <p className='text-white text-base mention-mobile2'>Mentions légales</p>
+                        <p className='text-white text-base mention-mobile2'>&nbsp;Mentions légales</p>
                     </Link>
             </div>
         </div>

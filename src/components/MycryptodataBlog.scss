@@ -5,11 +5,14 @@
 .image-mycryptodata img {
     width: 900px;
     position: absolute;
-    top: 300px;
+    top: 250px;
     left: 50%;
     transform: translateX(-50%);
 }
 
+#mycryptodata {
+    height: 100%;
+}
 
 @media screen and (max-width: 768px) {
     .header-mycryptodata {
@@ -42,5 +45,13 @@
         margin-top: 10rem;
         line-height: 1.7;
         width: 90%;
+    }
+
+    .image-mycryptodata img {
+        width: 750px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

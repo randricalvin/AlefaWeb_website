@@ -10,7 +10,7 @@ const Blog = () => {
     Aos.init({ duration: 1000 })
   }, []) 
   return (
-    <section className='blog mt-20 text-2xl justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20' id='blog'>
+    <section className='blog lg:mt-20 text-2xl justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20' id='blog'>
       <Helmet>
         <title>AlefaWeb | Blog - dernières actualités et articles</title>
         <link rel="canonical" href="https://www.alefaweb.com/blog" />
@@ -34,7 +34,7 @@ const Blog = () => {
       <div className='flex items-center'>
         <div className='flex gap-6 lg:pb-6 lg:mb-16 lg:w-1/2'>
           { blog.map((post) => (
-              <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md'>
                 <div className='flex items-start'>
                   <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
                     <img className="image-realisation w-full" src={post.image} alt={post.title} />

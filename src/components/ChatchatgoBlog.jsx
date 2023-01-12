@@ -35,9 +35,9 @@ const MycryptodataBlog = () => {
             <h2 className='lg:text-2xl font-bold'>Outils utilisés :</h2>
             <div className='flex flex-wrap justify-start'>
               <h3 className="mb-4 text-base text-center rounded-full mt-2 px-4 bg-[#0369a1] text-white">Figma</h3>
-              <h3 className="mb-4 text-base text-center rounded-full mt-2 px-4 bg-[#0369a1] text-white lg:mx-2">Javascript</h3>
+              <h3 className="mb-4 text-base text-center rounded-full mt-2 px-4 bg-[#0369a1] text-white mx-2">Javascript</h3>
               <h3 className="mb-4 text-base text-center rounded-full mt-2 px-4 bg-[#0369a1] text-white ">React</h3>
-              <h3 className="mb-4 text-base text-center rounded-full mt-2 px-4 bg-[#0369a1] text-white lg:mx-2">TailwindCSS</h3>
+              <h3 className="mb-4 text-base text-center rounded-full mt-2 px-4 bg-[#0369a1] text-white mr-2">TailwindCSS</h3>
               <h3 className="mb-4 text-base text-center rounded-full mt-2 px-4 bg-[#0369a1] text-white ">Firebase</h3>
             </div>
           </div>

@@ -40,8 +40,8 @@ const NavBar = () => {
         <nav>
             <section className="MOBILE-MENU mobile flex lg:hidden justify-end">
                     <HashLink  smooth to='/#' className='logo fixed flex justify-center items-center w-full'>
-                        <div className='mt-4'>
-                            <img src={lettrage_rgb} alt='logo alefaweb' className='h-11' />
+                        <div className='mt-4 logo'>
+                            <img src={lettrage_rgb} alt='logo alefaweb' className='h-11 logo' />
                         </div>
                     </HashLink>
                 <button
@@ -68,7 +68,7 @@ const NavBar = () => {
                 </button>
                 <div className={`menu-mobile ${isNavOpen ? "showMenuNav" : "hideMenuNav"}`}>
                     <div className="menu-burger-mobile flex justify-center items-center">
-                        <ul className="min-h-[250px]"
+                        <ul className="min-h-[250px] font-serif"
                         // close menu burger onclick
                         onClick={() => setIsNavOpen(false)}
                         >
@@ -102,7 +102,7 @@ const NavBar = () => {
       .showMenuNav {
         display: block;
         position: fixed;
-        width: 100%;
+        width: 100vw;
         height: 70vh;
         top: 4rem;
         left: 0;

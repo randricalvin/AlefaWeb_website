@@ -55,7 +55,7 @@ const Contact = () => {
         <div>
           {/* adding a select input for the subject of the email */}
           <select className='rounded-none field w-full lg:mb-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' name="subject" required>
-            <option value="default" disabled selected hidden>Objet de la demande</option>
+            <option value="default" disabled selected hidden className='py-3 px-6'>Objet de la demande</option>
             <option value="Demande de devis">Demande de devis</option>
             <option value="Demande de renseignements">Demande de renseignements</option>
             <option value="Autre">Autre</option>

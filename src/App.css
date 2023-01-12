@@ -89,7 +89,7 @@
 .navbar {
     font-family: "Chillax";
     font-size: 1.2rem;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     font-weight: 500;
     height: 4.5rem;
@@ -161,6 +161,13 @@
 
 .homeimage {
   height: 35rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .accueil {
+    width: 100%;
+  }
 }
 
 /* 

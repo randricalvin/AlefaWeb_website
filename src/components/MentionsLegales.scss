@@ -4,6 +4,13 @@
 
 
 @media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #eeeeee;
+      } 
+      
     .title-mention {
         font-size: 1.4rem;
         margin-bottom: 0.5rem;

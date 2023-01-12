@@ -31,11 +31,11 @@ const Blog = () => {
       {/* <div>
         <img src={blob4} alt="blob-animation" className='blob-animation4' />
       </div> */}
-      <div className='flex items-start'>
-        <div className='flex gap-6 lg:pb-6 lg:mb-16 card-project lg:w-1/2'>
+      <div className='flex items-center'>
+        <div className='flex gap-6 lg:pb-6 lg:mb-16 lg:w-1/2'>
           { blog.map((post) => (
               <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
-                <div className='flex items-center'>
+                <div className='flex items-start'>
                   <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
                     <img className="image-realisation w-full" src={post.image} alt={post.title} />
                       <div className="px-6 py-4 bg-white">

@@ -38,7 +38,7 @@ const Realisations = () => {
         </p>
 
         <div className='flex gap-6 lg:pb-6 lg:mb-16 card-project'>
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md'>
                
                   <HashLink to='/realisations/mycryptodata'>
                       <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
@@ -54,7 +54,7 @@ const Realisations = () => {
                 
           </div>
 
-          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700'>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md'>
  
                   <HashLink to="/realisations/chatchatgo">
                       <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">

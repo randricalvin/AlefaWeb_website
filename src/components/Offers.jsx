@@ -39,7 +39,7 @@ const Offers = () => {
           <div className='flex gap-4 justify-between lg:mt-12 card-offers card-tablet'>
 
             {/* 1 */}
-            <div data-aos="zoom-in" class="lg:w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="lg:w-1/4 max-w-sm p-4 bg-white border shadow-md flex flex-col justify-between hover:shadow-xl duration-300">
               <div className=''>
                 <h5 class="text-2xl font-extrabold uppercase text-center title-offre">Site vitrine<br/>standard</h5>
                 <div className='flex justify-center'>
@@ -105,7 +105,7 @@ const Offers = () => {
             </div>
 
             {/* 2 */}
-            <div data-aos="zoom-in" class="lg:w-1/4 card-offer max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="lg:w-1/4 card-offer max-w-sm p-4 bg-white border shadow-md flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
                 <h5 class="text-2xl font-extrabold uppercase text-center">Site vitrine <br/> sur mesure</h5>
                 <div className='flex justify-center'>
@@ -174,7 +174,7 @@ const Offers = () => {
             </div>
 
             {/* 3 */}
-            <div data-aos="zoom-in" class="card-offer lg:w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="card-offer lg:w-1/4 max-w-sm p-4 bg-white border shadow-md flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
                 <h5 class="text-2xl font-extrabold uppercase text-center">Site <br/> e-commerce</h5>
                 <div className='flex justify-center'>
@@ -251,7 +251,7 @@ const Offers = () => {
             </div>
 
             {/* 4 */}
-            <div data-aos="zoom-in" class="card-offer lg:w-1/4 max-w-sm p-4 bg-white border shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between hover:shadow-xl duration-300">
+            <div data-aos="zoom-in" class="card-offer lg:w-1/4 max-w-sm p-4 bg-white border shadow-md flex flex-col justify-between hover:shadow-xl duration-300">
               <div>
                 <h5 class="text-2xl font-bold uppercase text-center">Maintenance</h5>
                 <h5 class="text-2xl font-bold uppercase text-center">site internet</h5>

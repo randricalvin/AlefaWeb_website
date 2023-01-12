@@ -27,7 +27,7 @@ const Etapes = () => {
         </div>
       
         <div className='flex flex-wrap flex-md-nowrap lg:mx-12 gap-4 justify-evenly '> 
-            <div class="card-step bg-white border border-gray-200 dark:border-gray-700 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
+            <div class="card-step bg-white border border-gray-200 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
                 <div className='rounded-t-lg overflow-hidden flex justify-center'>
                     <img class="rounded-t-lg lg:h-60 md:h-80 scale-100 transition-all duration-200 hover:scale-110" src={discussion_dev_project} alt="discussion project développement" />
                 </div>
@@ -41,7 +41,7 @@ const Etapes = () => {
                 </div>
             </div>
 
-            <div class="card-step bg-white border border-gray-200 dark:border-gray-700 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
+            <div class="card-step bg-white border border-gray-200 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
                 <div className='rounded-t-lg overflow-hidden flex justify-center'>
                     <img class="rounded-t-lg lg:h-60 md:h-80 scale-100 transition-all duration-200 hover:scale-110" src={signature_dev_project} alt="signature contrat projet développement" />
                 </div>
@@ -55,7 +55,7 @@ const Etapes = () => {
                 </div>
             </div>
 
-            <div class="card-step bg-white border border-gray-200 dark:border-gray-700 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
+            <div class="card-step bg-white border border-gray-200 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
                 <div className='rounded-t-lg overflow-hidden flex justify-center'>
                     <img class="rounded-t-lg lg:h-60 md:h-80 object-cover scale-100 transition-all duration-200 hover:scale-110" src={developpement_dev_project} alt="développement projet développement" />
                 </div>
@@ -69,7 +69,7 @@ const Etapes = () => {
                 </div>
             </div>
 
-            <div class="card-step bg-white border border-gray-200 dark:border-gray-700 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
+            <div class="card-step bg-white border border-gray-200 transition duration-300 ease-in-out drop-shadow-2xl shadow-lg lg:w-72">
                 <div className='rounded-t-lg overflow-hidden flex justify-center'>
                     <img class="rounded-t-lg lg:h-60 md:h-80 scale-100 transition-all duration-200 hover:scale-110" src={delivery_dev_project} alt="livraison projet développement" />
                 </div>

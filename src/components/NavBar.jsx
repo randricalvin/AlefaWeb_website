@@ -40,7 +40,7 @@ const NavBar = () => {
         <nav>
             <section className="MOBILE-MENU mobile flex lg:hidden justify-end">
                     <HashLink  smooth to='/#' className='logo flex w-full items-center justify-center'>
-                        <div className=''>
+                        <div className='fixed'>
                             <img src={lettrage_rgb} alt='logo alefaweb' className='h-11 logo' />
                         </div>
                     </HashLink>

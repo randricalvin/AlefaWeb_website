@@ -39,8 +39,8 @@ const NavBar = () => {
 
         <nav>
             <section className="MOBILE-MENU mobile flex lg:hidden justify-end">
-                    <HashLink  smooth to='/#' className='logo fixed flex justify-center items-center w-full'>
-                        <div className='mt-4 logo'>
+                    <HashLink  smooth to='/#' className='logo flex w-full items-center justify-center'>
+                        <div className=''>
                             <img src={lettrage_rgb} alt='logo alefaweb' className='h-11 logo' />
                         </div>
                     </HashLink>
@@ -88,7 +88,7 @@ const NavBar = () => {
                                 <HashLink to='/blog'>Blog</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink  smooth to='/#contact' className='flex items-center text-white bg-[#fd7d28] py-2 px-8 rounded-full focus:bg-[#FF6501] hover:text-white'>Contact</HashLink>
+                                <HashLink  smooth to='/#contact' className='text-white button-service bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full px-5 py-3 inline-flex justify-center text-center'>Contact</HashLink>
                             </li>
                         </ul>
                     </div>
@@ -112,7 +112,7 @@ const NavBar = () => {
         justify-content: center;
         align-items: center;
         backdrop-filter: saturate(180%) blur(5px);
-        background: hsla(0,0%,100%,.8);
+        background: white;
       }
     `}
       </style>

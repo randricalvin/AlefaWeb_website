@@ -45,23 +45,23 @@ const Contact = () => {
         
     <form data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='input-form font-serif2' onSubmit={sendEmail}>
         <div className='name-input flex lg:flex-row info1'>
-            <input className='field lg:w-1/2 lg:mr-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="text" placeholder="Prénom" name="from_name" required/>
-            <input className='field lg:w-1/2 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="text" placeholder="Nom" name="from_name" required/>
+            <input className='rounded-none field lg:w-1/2 lg:mr-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="text" placeholder="Prénom" name="from_name" required/>
+            <input className='rounded-none field lg:w-1/2 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="text" placeholder="Nom" name="from_name" required/>
         </div>
         <div className='flex lg:flex-row info2'>
-          <input className='field lg:w-1/2 lg:mr-5 lg:my-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="email" placeholder="E-mail" name="email" required/>
-          <input className='field lg:w-1/2 lg:my-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="tel" placeholder="Téléphone" name="phone" />
+          <input className='rounded-none field lg:w-1/2 lg:mr-5 lg:my-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="email" placeholder="E-mail" name="email" required/>
+          <input className='rounded-none field lg:w-1/2 lg:my-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type="tel" placeholder="Téléphone" name="phone" />
         </div>
         <div>
           {/* adding a select input for the subject of the email */}
-          <select className='field w-full lg:mb-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' name="subject" required>
+          <select className='rounded-none field w-full lg:mb-5 border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' name="subject" required>
             <option value="default" disabled selected hidden>Objet de la demande</option>
             <option value="Demande de devis">Demande de devis</option>
             <option value="Demande de renseignements">Demande de renseignements</option>
             <option value="Autre">Autre</option>
           </select>
         </div>
-        <textarea className='w-full h-40 resize-none border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type='message' placeholder='Message' name="message" required/>
+        <textarea className='rounded-none w-full h-40 resize-none border bg-white py-3 px-6 text-base font-medium outline-none focus:border-[#7B52FB] focus:shadow-lg' type='message' placeholder='Message' name="message" required/>
         <div className='page-contact-button flex justify-center pt-12 pb-14'>
           <button type="submit" className="button-service lg:w-1/5 text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif" value="Send Message">Envoyer
           </button>

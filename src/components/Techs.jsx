@@ -13,7 +13,7 @@ const Techs = () => {
     }, []);
 
   return (
-    <section className='bg-[#1B1559]'>
+    <section className='bg-[#1B1559] techno-bg'>
         <div className='techno pt-10 lg:w-5/6 mx-auto content-width'>
             <h1 className='lg:text-4xl flex text-white font-serif title-tech'>Travaillons ensemble avec les meilleurs outils
             </h1>

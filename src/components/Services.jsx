@@ -55,7 +55,7 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200  shadow-md font-serif2">
                   <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>1.</span>
                   <div className='flex justify-between items-center'>
-                    <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Création <br/> de site internet</h5>
+                    <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-black name-service">Création <br/> de site internet</h5>
                     <img src={creation_site_internet} alt="creation_site_internet_orleans" className='h-14'/>
                   </div>
                   <p class="mb-3 lg:text-base description-service">Création de votre site internet sur-mesure, adapté à tous les types d’écran et optimisé pour vous faire apparaître en top des recherches.</p>
@@ -68,7 +68,7 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>2.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Refonte <br/>de site internet</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-black name-service">Refonte <br/>de site internet</h5>
                       <img src={refonte_site_internet} alt="refonte_site_internet_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 lg:text-base description-service"> Proposition d'une refonte (graphique ou technique) de votre site internet existant, pour le rendre plus performant, accessible et moderne.</p>
@@ -80,7 +80,7 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>3.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Création <br/>de boutique en ligne</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-black name-service">Création <br/>de boutique en ligne</h5>
                       <img src={creation_boutique_en_ligne} alt="creation_boutique_en_ligne_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 lg:text-base description-service"> Création de votre site e-commerce avec WordPress (WooCommerce) et Shopify, pour vendre vos produits en ligne 24h/7j et développer votre activité.</p>
@@ -94,7 +94,7 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>4.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Webdesign <br/>& Graphic design</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-black name-service">Webdesign <br/>& Graphic design</h5>
                       <img src={webdesign_graphic_design} alt="webdesigner_graphic_designer_orleans" className='h-14'/>
                     </div>
                   <p class="mb-3 lg:text-base description-service">Réalisation de votre charte graphique. Création de votre maquette (UI et UX design), pour mettre en valeur le  professionnalisme de votre activité.</p>   
@@ -106,7 +106,7 @@ const Services = () => {
             <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md font-serif2">
                   <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>5.</span>
                   <div className='flex justify-between items-center'>
-                    <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Responsive <br/>design</h5>
+                    <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-black name-service">Responsive <br/>design</h5>
                     <img src={responsive_design} alt="site_responsive_orleans" className='h-16'/>
                   </div>
                 <p class="mb-3 lg:text-base description-service">Rendre votre site internet ergonomique, responsive, avec une navigation optimale sur tous les écrans : ordinateur, tablette, smartphone.</p>
@@ -118,7 +118,7 @@ const Services = () => {
               <div class="card flex flex-col justify-evenly p-6 bg-white border border-gray-200 shadow-md font-serif2">
                     <span className='text-4xl font-serif font-extrabold text-[#7B52FB]'>6.</span>
                     <div className='flex justify-between items-center'>
-                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white name-service">Maintenance <br/>de site internet</h5>
+                      <h5 class="mb-2 lg:text-2xl font-bold tracking-tight text-black name-service">Maintenance <br/>de site internet</h5>
                       <img src={maintenance_site_internet} alt="maintenance_site_internet_orleans" className='h-16'/>
                     </div>
                   <p class="mb-3 lg:text-base description-service"> Maintenance de votre site internet, pour des mises à jour régulières (technique, graphique, ...) et une sécurité optimale.</p>

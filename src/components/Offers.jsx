@@ -48,7 +48,7 @@ const Offers = () => {
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Une solution idéale pour présenter votre activité, vos produits et/ou service, afin d'avoir une présence sur internet.</h5>
               <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
-                  <span class="text-5xl flex font-extrabold tracking-tight">999<span class="text-2xl font-extrabold tracking-tight">€ *</span></span> 
+                  <span class="text-5xl flex font-extrabold tracking-tight text-black">999<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
                   
               </div>
               </div>
@@ -114,7 +114,7 @@ const Offers = () => {
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Un développement sur mesure, c’est l’assurance d’un site qui correspond exactement à vos attentes et d'une bonne expérience utilisateur.</h5>
                 <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
-                  <span class="text-5xl flex font-extrabold tracking-tight">1 499<span class="text-2xl font-extrabold tracking-tight">€ *</span></span> 
+                  <span class="text-5xl flex font-extrabold tracking-tight text-black">1 499<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
                 </div>
               </div>
               <div className='flex h-full'>
@@ -183,7 +183,7 @@ const Offers = () => {
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Vous souhaitez vendre vos produits en ligne ? Optez pour une solution qui propose vos produits à des clients 24h/24 et 7j/7.</h5>
                 <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2 ">À partir de</span>
-                  <span class="text-5xl flex font-extrabold tracking-tight">2 499<span class="text-2xl font-extrabold tracking-tight">€ *</span></span> 
+                  <span class="text-5xl flex font-extrabold tracking-tight text-black">2 499<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
                 </div>
               </div>
               <div className='flex h-full'>
@@ -239,7 +239,7 @@ const Offers = () => {
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight dark:text-gray-400">Formation et accompagnement sur l'utilisation du site</span>
+                          <span class="text-base font-normal leading-tight">Formation et accompagnement sur l'utilisation du site</span>
                       </li>
                   </ul>
                 </div>
@@ -257,8 +257,8 @@ const Offers = () => {
                 <h5 class="text-2xl font-bold uppercase text-center">site internet</h5>
                 <h5 class="mb-8 mt-11 lg:text-sm font-medium text-center h-14 text-offers">Un ensemble d’actions qui vont garder votre site en bonne santé et à jour, sur le plan technique et éditorial.</h5>
               <div class="flex dark:text-white justify-center mt-16">
-                  <span class="text-5xl font-extrabold tracking-tight">30</span>
-                  <span class="text-2xl font-extrabold tracking-tight">€/h</span>
+                  <span class="text-5xl font-extrabold tracking-tight text-black">30</span>
+                  <span class="text-2xl font-extrabold tracking-tight text-black">€/h</span>
               </div>
               </div>
               <div className='flex h-full'>

@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 const Blog1 = () => {
  
   return (
-    <section className='realisations my-20 justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20'>
+    <section className='realisations my-14 justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20'>
       <Helmet>
         <title> AlefaWeb | Blog - 7 raisons de créer un site internet pour votre entreprise</title>
         <link rel="canonical" href="https://www.alefaweb.com/blog/7-raisons-creer-un-site-internet-pour-votre-entreprise" />

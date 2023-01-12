@@ -5,7 +5,7 @@ const blog = [
     // id : 'qui-est-derriere-alefaweb',
     // title: 'Qui est derrière AlefaWeb ?',
     // image : avantages_site,
-    // description: 'This is my blog',
+    // description: "AlefaWeb est un projet d'auto-entreprise créée par un développeur web passionné.",
     // link: 'blog/qui-est-derriere-alefaweb',
     // },
     {

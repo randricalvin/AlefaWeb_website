@@ -14,9 +14,9 @@ const Accueil = () => {
       <Helmet>
         <title>AlefaWeb | Développeur web à Orléans - Création site internet</title>
         <link rel="canonical" href="https://www.alefaweb.com/" />
-        <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Ensemble nous chosirons la solution adaptée à votre besoin." />
+        <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, site e-commerce et application web. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France." />
         <meta property='og:title' content='Accueil | Développeur web freelance à Orléans - Création site internet à Orléans' />
-        <meta property='og:description' content='Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Ensemble nous chosirons la solution adaptée à votre besoin.' />
+        <meta property='og:description' content='Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, site e-commerce et application web. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France.' />
         <meta property='og:url' content='https://www.alefaweb.com/' />
       </Helmet>
 

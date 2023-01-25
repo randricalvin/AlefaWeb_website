@@ -41,9 +41,9 @@ const Offers = () => {
             {/* 1 */}
             <div data-aos="zoom-in" class="lg:w-1/4 max-w-sm p-4 bg-white border shadow-md flex flex-col justify-between hover:shadow-xl duration-300">
               <div className=''>
-                <h5 class="text-2xl font-extrabold uppercase text-center title-offre">Site vitrine<br/>standard</h5>
+                <h5 class="text-2xl font-extrabold uppercase text-center title-offre">Site vitrine<br/>starter</h5>
                 <div className='flex justify-center'>
-                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress</h5>
+                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Site OnePage</h5>
                 </div>
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Une solution idéale pour présenter votre activité, vos produits et/ou service, afin d'avoir une présence sur internet.</h5>
               <div class="flex flex-col items-center dark:text-white justify-center">
@@ -109,7 +109,7 @@ const Offers = () => {
               <div>
                 <h5 class="text-2xl font-extrabold uppercase text-center">Site vitrine <br/> sur mesure</h5>
                 <div className='flex justify-center'>
-                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec des outils spécialisés</h5>
+                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Site MultiPage</h5>
                 </div>
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Un développement sur mesure, c’est l’assurance d’un site qui correspond exactement à vos attentes et d'une bonne expérience utilisateur.</h5>
                 <div class="flex flex-col items-center dark:text-white justify-center">

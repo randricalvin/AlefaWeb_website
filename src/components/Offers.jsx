@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import trait_marquage from '../assets/trait_marquage.svg'
 import blob3 from '../assets/blob3.svg'
 import { Helmet } from 'react-helmet'
+import Contact from './Contact'
 
 const Offers = () => {
   useEffect(() => {
@@ -305,6 +306,8 @@ const Offers = () => {
             
           </div>
         </div>
+
+        <Contact />
     </div>
   )
 }

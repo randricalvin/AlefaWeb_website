@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 
 const MycryptodataBlog = () => {
   return (
-    <section className='font-serif h-full lg:mb-10' id='mycryptodata'>
+    <section className='font-serif h-full mb-20' id='mycryptodata'>
       <Helmet>
         <title>AlefaWeb | Mes réalisations - MyCryptoData (Outil de suivi des prix des cryptomonnaies)</title>
         <link rel="canonical" href="https://www.alefaweb.com/realisation-de-sites-internet-orleans/mycryptodata" />

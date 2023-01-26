@@ -7,6 +7,7 @@ import chatchatgo from '../assets/realisations/chatchatgo.svg'
 import blob4 from '../assets/blob4.svg'
 import Aos from 'aos'
 import { Helmet } from 'react-helmet'
+import Contact from './Contact'
 
 const Realisations = () => {
   useEffect(() => {
@@ -71,6 +72,8 @@ const Realisations = () => {
                 
           </div>
         </div>
+
+        <Contact />
     </section>
 
   )

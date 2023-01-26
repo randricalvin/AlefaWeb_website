@@ -3,6 +3,7 @@ import Accueil from '../components/Accueil'
 import Services from '../components/Services'
 import Techs from '../components/Techs'
 import { Helmet } from 'react-helmet'
+import Contact from '../components/Contact'
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
         <Accueil />
         <Services />
         <Techs />
+        <Contact />
       </div>
 
   )

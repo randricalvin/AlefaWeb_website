@@ -32,7 +32,6 @@ function App() {
           <Route path="/realisation-de-sites-internet-orleans/chatchatgo" element={<ChatchatgoBlog />} />
           <Route path="/mentionslegales" element={<MentionsLegales />} />
         </Routes>
-        <Contact />
         <Footer />
       </Router>
     </div>

@@ -10,7 +10,7 @@ const Blog = () => {
     Aos.init({ duration: 1000 })
   }, []) 
   return (
-    <section className='blog lg:mt-20 text-2xl justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-12' id='blog'>
+    <section className='blog lg:mt-20 text-2xl justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width mb-20' id='blog'>
       <Helmet>
         <title>AlefaWeb | Blog - dernières actualités et articles</title>
         <link rel="canonical" href="https://www.alefaweb.com/blog" />

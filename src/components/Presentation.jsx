@@ -1,6 +1,5 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import { HashLink} from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
 import TexteHomePage from './TexteHomePage'
 import "./Presentation.scss"
 import developpeur_orleans from '../assets/developpeur_orleans.svg'
@@ -27,12 +26,12 @@ const Presentation = () => {
             </div>
             <div className=''>
                 <div className='mt-8 flex lg:justify-start button-presentation'>
-                    <HashLink smooth to='/#offres' className='lg:mr-10 text-white button-presentation1 bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase'>
+                    <Link smooth to='/creation-de-sites-internet-orleans' className='lg:mr-10 text-white button-presentation1 bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase'>
                         Voir les tarifs 
-                    </HashLink>
-                    <HashLink smooth to='/#contact' className='text-white button-presentation2 bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase'>
+                    </Link>
+                    <Link smooth to='/#contact' className='text-white button-presentation2 bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase'>
                         Devis gratuit
-                    </HashLink>
+                    </Link>
                 </div>
             </div>
         </div>

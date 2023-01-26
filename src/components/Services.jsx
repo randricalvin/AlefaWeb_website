@@ -18,13 +18,11 @@ const Services = () => {
     Aos.init({ duration: 1000 })
   }, [])
   return (
-    <section className='body service'>
+    <section className='body service' id='services'>
       <Helmet>
-        <link rel="canonical" href="https://www.alefaweb.com/#services" />
         <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, site e-commerce et application web. Je donne vie à vos idées et vous accompagne dans la création de votre site internet." />
         <meta property='og:title' content='AlefaWeb | Mes services - Création site vitrine et site e-commerce' />
         <meta property='og:description' content='Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, site e-commerce et application web. Je donne vie à vos idées et vous accompagne dans la création de votre site internet.' />
-        <meta property='og:url' content='https://www.alefaweb.com/#services' />
       </Helmet>
 
         <div>

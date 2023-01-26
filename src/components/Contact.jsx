@@ -29,7 +29,7 @@ const Contact = () => {
 
 
   return (
-    <section className='justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width' id="contact">
+    <section className='justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width pt-12' id="contact">
         <div>
           <img src={blob5} alt="blob-animation" className='blob-animation5' />
         </div>

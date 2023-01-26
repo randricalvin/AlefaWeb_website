@@ -36,13 +36,13 @@ const Footer = () => {
                     <div className='flex'> 
                         <img src={phone} alt="téléphone alefaweb" className='h-7'/>
                         <a href="tel:+33664475182">
-                            <p className='text-base font-medium'>: 06 64 47 51 82</p>
+                            <p className='text-lg font-medium mb-2'>: 06 64 47 51 82</p>
                         </a>
                     </div>
                     <div className='flex'> 
                         <img src={mail} alt="email alefaweb" className='h-7'/>
                         <a href="mailto:bonjour@alefaweb.com">
-                            <p className='text-base font-medium'>: bonjour@alefaweb.com</p>
+                            <p className='text-lg font-medium mb-2'>: bonjour@alefaweb.com</p>
                         </a>
                     </div>
                 </div>
@@ -68,11 +68,11 @@ const Footer = () => {
 
             <div className='flex flex-col lg:my-8 contact-info3'>
                 <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Plan du Site</h1>
-                <HashLink  smooth to='/#' className='text-base hover:text-[#fd7d28]'>Accueil</HashLink>
-                <HashLink  smooth to='/#services' className='text-base hover:text-[#fd7d28]'>Services</HashLink>
-                <HashLink  smooth to='/creation-de-sites-internet-orleans' className='text-base hover:text-[#fd7d28]'>Offres</HashLink>
-                <HashLink  smooth to='/realisation-de-sites-internet-orleans' className='text-base hover:text-[#fd7d28]'>Réalisations</HashLink>
-                <HashLink  smooth to='/blog' className='text-base hover:text-[#fd7d28]' component={Blog}>Blog</HashLink>
+                <HashLink  smooth to='/#' className='text-lg hover:text-[#fd7d28] mb-2'>Accueil</HashLink>
+                <HashLink  smooth to='/#services' className='text-lg hover:text-[#fd7d28] mb-2'>Services</HashLink>
+                <HashLink  smooth to='/creation-de-sites-internet-orleans' className='text-lg hover:text-[#fd7d28] mb-2'>Offres</HashLink>
+                <HashLink  smooth to='/realisation-de-sites-internet-orleans' className='text-lg hover:text-[#fd7d28] mb-2'>Réalisations</HashLink>
+                <HashLink  smooth to='/blog' className='text-lg hover:text-[#fd7d28]'>Blog</HashLink>
             </div>
 
             <div className='lg:flex mention-mobile'>

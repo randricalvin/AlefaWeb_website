@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import logoalefaweb from '../assets/Rgb_black.svg'
 import lettrage_rgb from '../assets/lettrage_rgb.svg'
-import { HashLink } from 'react-router-hash-link'
 import Blog from '../pages/Blog'
 import './NavBar.scss'
+import { HashLink } from 'react-router-hash-link'
 
 const NavBar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)

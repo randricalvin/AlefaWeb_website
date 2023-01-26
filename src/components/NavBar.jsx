@@ -21,16 +21,16 @@ const NavBar = () => {
                     </HashLink>
                 </div>
                 <div className='w-4/6'>
-                    <div className='flex justify-center items-center gap-12'>
+                    <div className='flex justify-center items-center gap-12 font-serif'>
                         <HashLink  smooth to='/#' className='text-xl list'>Accueil</HashLink>
                         <HashLink  smooth to='/#services' className='text-xl list'>Services</HashLink>
-                        <HashLink  smooth to='/#offres' className='text-xl list'>Offres</HashLink>
-                        <HashLink  smooth to='/#realisations' className='text-xl list'>Réalisations</HashLink>
-                        <HashLink  smooth to='blog' className='text-xl list' component={Blog}>Blog</HashLink>
+                        <HashLink  smooth to='/creation-de-sites-internet-orleans' className='text-xl list'>Offres</HashLink>
+                        <HashLink  smooth to='/realisation-de-sites-internet-orleans' className='text-xl list'>Réalisations</HashLink>
+                        <HashLink  smooth to='/blog' className='text-xl list' component={Blog}>Blog</HashLink>
                     </div>
                 </div>
                 <div className='w-1/6'>
-                    <div className='flex justify-end'>
+                    <div className='flex justify-end font-serif'>
                         <HashLink  smooth to='/#contact' className='flex items-center text-white bg-[#fd7d28] py-2 px-8 rounded-full hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110'>Contact</HashLink>
                     </div>
                 </div>
@@ -79,10 +79,10 @@ const NavBar = () => {
                                 <HashLink smooth to='/#services'>Services</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink smooth to='/#offres'>Offres</HashLink>
+                                <HashLink smooth to='/creation-de-sites-internet-orleans'>Offres</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink smooth to='/#realisations'>Réalisations</HashLink>
+                                <HashLink smooth to='/realisation-de-sites-internet-orleans'>Réalisations</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
                                 <HashLink to='/blog'>Blog</HashLink>

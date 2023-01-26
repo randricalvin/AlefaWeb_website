@@ -17,7 +17,7 @@ const Etapes = () => {
 
 
   return (
-    <section className='font-serif2 mt-12 text-black etape-bg'>
+    <section className='font-serif2 mt-12 mb-10 text-black etape-bg'>
         <div className='lg:w-5/6 mx-auto lg:my-16 content-width'>
             {/* <span className='text-4xl text-white font-serif'> Les étapes indispensables pour la <span className='text-[#7B52FB] title-outil pb-2'>réalisation de votre projet</span></span> */}
             <h1 className='lg:text-4xl flex text-white font-serif title-tech'>Les étapes indispensables pour le succès de votre projet</h1>

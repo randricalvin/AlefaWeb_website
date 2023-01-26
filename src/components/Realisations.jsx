@@ -16,18 +16,19 @@ const Realisations = () => {
   return (
     <section id="realisations" className='realisations justify-start items-center flex flex-col font-serif2 lg:w-5/6 mx-auto content-width'>
       <Helmet>
-        <link rel="canonical" href="https://www.alefaweb.com/#realisations" />
-        <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Cliquez ici pour voir mes dernières réalisations." />
-        <meta property='og:title' content='Mes réalisations | Développeur web freelance à Orléans - Création site internet à Orléans' />
-        <meta property='og:description' content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Cliquez ici pour voir mes dernières réalisations." />
-        <meta property='og:url' content='https://www.alefaweb.com/#realisations' />
+        <title>AlefaWeb | Réalisations - Réalisations site internet à Orléans</title>
+        <link rel="canonical" href="https://www.alefaweb.com/realisation-de-sites-internet-orleans " />
+        <meta name="description" content="Retrouvez mes réalisations de sites internet à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher. Cliquez ici pour voir mes dernières réalisations." />
+        <meta property='og:title' content='AlefaWeb | Réalisations - Réalisations site internet à Orléans' />
+        <meta property='og:description' content="Retrouvez mes réalisations de sites internet à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher. Cliquez ici pour voir mes dernières réalisations." />
+        <meta property='og:url' content='https://www.alefaweb.com/realisation-de-sites-internet-orleans' />
       </Helmet>
 
         <div>
           <img src={blob4} alt="blob-animation" className='blob-animation4' />
         </div>
         <div className='flex flex-col items-center'>
-          <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>
+          <span className='text-3xl font-bold font-serif text-[#7B52FB] lg:pt-20 uppercase'>
             Mes réalisations
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-5/6'/>
@@ -40,7 +41,7 @@ const Realisations = () => {
         <div className='flex gap-6 lg:pb-6 lg:mb-16 card-project'>
           <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md'>
                
-                  <HashLink to='/realisations/mycryptodata'>
+                  <HashLink to='/realisation-de-sites-internet-orleans/mycryptodata'>
                       <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
                           <img className="image-realisation w-full" src={mycryptodata} alt="projets cryptodata réalisés"/>
                           <div className="px-6 py-4 bg-white">
@@ -56,7 +57,7 @@ const Realisations = () => {
 
           <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='font-serif2 flex  justify-between bg-white border shadow-md'>
  
-                  <HashLink to="/realisations/chatchatgo">
+                  <HashLink to="/realisation-de-sites-internet-orleans/chatchatgo">
                       <div className="overflow-hidden ease-in-out hover:scale-105 duration-300">
                           <img className="image-realisation w-full" src={chatchatgo} alt="projets chatchatgo réalisés"/>
                           <div className="px-6 py-4 bg-white">

@@ -5,14 +5,14 @@ import { Helmet } from 'react-helmet'
 
 const MycryptodataBlog = () => {
   return (
-    <section className='font-serif h-full mb-20' id='mycryptodata'>
+    <section className='font-serif h-full lg:mb-10' id='mycryptodata'>
       <Helmet>
         <title>AlefaWeb | Mes réalisations - MyCryptoData (Outil de suivi des prix des cryptomonnaies)</title>
-        <link rel="canonical" href="https://www.alefaweb.com/realisations/mycryptodata" />
+        <link rel="canonical" href="https://www.alefaweb.com/realisation-de-sites-internet-orleans/mycryptodata" />
         <meta name="description" content="Outil de suivi en temps réel les variations des cours des différentes cryptomonnaies. L'utilisateur peut également consulter les dernières actualités sur le monde de la cryptomonnaie." />
         <meta property='og:title' content='Mes réalisations | MyCryptoData' />
         <meta property='og:description' content="Outil de suivi en temps réel les variations des cours des différentes cryptomonnaies. L'utilisateur peut également consulter les dernières actualités sur le monde de la cryptomonnaie." />
-        <meta property='og:url' content='https://www.alefaweb.com/realisations/mycryptodata' />
+        <meta property='og:url' content='https://www.alefaweb.com/realisation-de-sites-internet-orleans/mycryptodata' />
         <meta property='og:image' content={mycryptodata} />
       </Helmet>
 

@@ -15,11 +15,12 @@ const Offers = () => {
   return (
     <div id='offres' className='offres text-2xl justify-start items-center flex flex-col font-serif2'>
       <Helmet>
-        <link rel="canonical" href="https://www.alefaweb.com/#offres" />
-        <meta name="description" content="Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Je vous propose des solutions adaptées à votre besoin et votre budget." />
+        <title>AlefaWeb | Mes offres - Création site vitrine et site e-commerce</title>
+        <link rel="canonical" href="https://www.alefaweb.com/creation-site-internet-orleans" />
+        <meta name="description" content="Création de site internet vitrine et e-commerce à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher." />
         <meta property='og:title' content='AlefaWeb | Mes offres - Création site vitrine et site e-commerce' />
-        <meta property='og:description' content='Développeur web freelance à Orléans, je vous accompagne dans la création de votre site internet vitrine, e-commerce et application web. Je vous propose des solutions adaptées à votre besoin et votre budget.' />
-        <meta property='og:url' content='https://www.alefaweb.com/#offres' />
+        <meta property='og:description' content='Création de site internet vitrine et e-commerce à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher.' />
+        <meta property='og:url' content='https://www.alefaweb.com/creation-site-internet-orleans' />
       </Helmet>
 
         <div>
@@ -27,7 +28,7 @@ const Offers = () => {
         </div>
 
         <div className='flex flex-col items-center'>
-          <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-8 uppercase'>
+          <span className='text-3xl font-bold font-serif text-[#7B52FB] lg:pt-20 uppercase'>
             Mes offres
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>
@@ -43,12 +44,12 @@ const Offers = () => {
               <div className=''>
                 <h5 class="text-2xl font-extrabold uppercase text-center title-offre">Site vitrine<br/>starter</h5>
                 <div className='flex justify-center'>
-                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Site OnePage</h5>
+                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Site Onepage</h5>
                 </div>
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Une solution idéale pour présenter votre activité, vos produits et/ou service, afin d'avoir une présence sur internet.</h5>
               <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
-                  <span class="text-5xl flex font-extrabold tracking-tight text-black">999<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
+                  <span class="text-5xl flex font-extrabold tracking-tight text-black">699<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
                   
               </div>
               </div>
@@ -81,14 +82,6 @@ const Offers = () => {
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Intégration d'un outil de réservation</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Optimisation du référencement</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Mise en ligne du site</span>
                       </li>
                       <li class="flex space-x-3">
@@ -109,12 +102,12 @@ const Offers = () => {
               <div>
                 <h5 class="text-2xl font-extrabold uppercase text-center">Site vitrine <br/> sur mesure</h5>
                 <div className='flex justify-center'>
-                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Site MultiPage</h5>
+                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Site Multipage</h5>
                 </div>
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Un développement sur mesure, c’est l’assurance d’un site qui correspond exactement à vos attentes et d'une bonne expérience utilisateur.</h5>
                 <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2">À partir de</span>
-                  <span class="text-5xl flex font-extrabold tracking-tight text-black">1 499<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
+                  <span class="text-5xl flex font-extrabold tracking-tight text-black">999<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
                 </div>
               </div>
               <div className='flex h-full'>
@@ -135,6 +128,10 @@ const Offers = () => {
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Intégration des contenus fournis</span>
+                      </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Interface administrateur</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -178,12 +175,12 @@ const Offers = () => {
               <div>
                 <h5 class="text-2xl font-extrabold uppercase text-center">Site <br/> e-commerce</h5>
                 <div className='flex justify-center'>
-                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Créé avec WordPress ou Shopify</h5>
+                  <h5 class="mb-4 text-sm font-bold text-center rounded-full text-white px-2 mt-2 bg-[#7B52FB]">Boutique en ligne</h5>
                 </div>
                 <h5 class="mb-8 lg:text-sm font-medium text-center h-14 text-offers">Vous souhaitez vendre vos produits en ligne ? Optez pour une solution qui propose vos produits à des clients 24h/24 et 7j/7.</h5>
                 <div class="flex flex-col items-center dark:text-white justify-center">
                   <span class="text-base font-medium text-gray-500 text-center uppercase mb-2 ">À partir de</span>
-                  <span class="text-5xl flex font-extrabold tracking-tight text-black">2 499<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
+                  <span class="text-5xl flex font-extrabold tracking-tight text-black">1 999<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span> 
                 </div>
               </div>
               <div className='flex h-full'>
@@ -292,7 +289,7 @@ const Offers = () => {
 
           <div className='my-4'>
             <p className='text-sm condition'>
-              L'ensemble des prix indiqués sont en Hors-Taxes. * Prix à titre indicatif : ils peuvent varier en fonction de la demande et le choix du client.
+              * Prix à titre indicatif : ils peuvent varier en fonction de la demande et le choix du client.
             </p>
           </div>
 

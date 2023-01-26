@@ -34,7 +34,7 @@ const Contact = () => {
           <img src={blob5} alt="blob-animation" className='blob-animation5' />
         </div>
       <div className='flex flex-col items-center'>
-          <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-20 uppercase'>
+          <span className='text-3xl font-bold font-serif text-[#7B52FB] pt-10 uppercase'>
             Contactez-moi
           </span>
           <img src={trait_marquage} alt="trait marquage" className='w-2/3'/>

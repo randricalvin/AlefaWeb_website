@@ -5,14 +5,14 @@ import { Helmet } from 'react-helmet'
 
 const MycryptodataBlog = () => {
   return (
-    <section className='font-serif mb-20'>
+    <section className='font-serif lg:mb-10'>
       <Helmet>
         <title>AlefaWeb | Mes réalisation - Chatchatgo (Une application de messagie instantanée)</title>
-        <link rel="canonical" href="https://www.alefaweb.com/realisations/chatchatgo" />
+        <link rel="canonical" href="https://www.alefaweb.com/realisation-de-sites-internet-orleans/chatchatgo" />
         <meta name="description" content="Chatchatgo est une application de messagerie instantanée. Cette application permet aux utilisateurs de discuter en temps réel avec d'autres utilisateurs." />
         <meta property='og:title' content='AlefaWeb | Mes réalisation - Chatchatgo (Une application de messagie instantanée)' />
         <meta property='og:description' content="Chatchatgo est une application de messagerie instantanée. Cette application permet aux utilisateurs de discuter en temps réel avec d'autres utilisateurs." />
-        <meta property='og:url' content='https://www.alefaweb.com/realisations/chatchatgo' />
+        <meta property='og:url' content='https://www.alefaweb.com/realisation-de-sites-internet-orleans/chatchatgo' />
         <meta property='og:image' content={chatchatgo} />
       </Helmet>
 

@@ -55,7 +55,7 @@ const Footer = () => {
                         <a href="https://www.facebook.com/profile.php?id=100089605470255" target="_blank">
                             <img src={facebook} alt="facebook alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mx-2'/>
                         </a>
-                        <a href="https://www.google.com" target="_blank">
+                        <a href="" target="_blank">
                             <img src={linkedin} alt="linkedin alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mr-2'/>
                         </a>
                         <a href="https://www.tiktok.com/@alefaweb?is_from_webapp=1&sender_device=pc" target="_blank">
@@ -70,9 +70,9 @@ const Footer = () => {
                 <h1 className='text-white text-xl font-extrabold uppercase mb-2'>Plan du Site</h1>
                 <HashLink  smooth to='/#' className='text-base hover:text-[#fd7d28]'>Accueil</HashLink>
                 <HashLink  smooth to='/#services' className='text-base hover:text-[#fd7d28]'>Services</HashLink>
-                <HashLink  smooth to='/#offres' className='text-base hover:text-[#fd7d28]'>Offres</HashLink>
-                <HashLink  smooth to='/#realisations' className='text-base hover:text-[#fd7d28]'>Réalisations</HashLink>
-                <HashLink  smooth to='blog' className='text-base hover:text-[#fd7d28]' component={Blog}>Blog</HashLink>
+                <HashLink  smooth to='/creation-de-sites-internet-orleans' className='text-base hover:text-[#fd7d28]'>Offres</HashLink>
+                <HashLink  smooth to='/realisation-de-sites-internet-orleans' className='text-base hover:text-[#fd7d28]'>Réalisations</HashLink>
+                <HashLink  smooth to='/blog' className='text-base hover:text-[#fd7d28]' component={Blog}>Blog</HashLink>
             </div>
 
             <div className='lg:flex mention-mobile'>

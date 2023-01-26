@@ -1,10 +1,7 @@
 import React from 'react'
 import Accueil from '../components/Accueil'
 import Services from '../components/Services'
-import Offers from '../components/Offers'
-import Contact from '../components/Contact'
 import Techs from '../components/Techs'
-import Realisations from '../components/Realisations'
 import { Helmet } from 'react-helmet'
 
 const Home = () => {
@@ -22,9 +19,6 @@ const Home = () => {
         <Accueil />
         <Services />
         <Techs />
-        <Offers />
-        <Realisations />
-        <Contact />
       </div>
 
   )

@@ -126,7 +126,7 @@ const Services = () => {
         </div>
 
         <div className='flex justify-center pb-14'>
-                <HashLink smooth to="/#contact" className="text-white button-service bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center uppercase text-center font-serif ">Demander un devis</HashLink>
+                <HashLink smooth='true' to="/#contact" className="text-white button-service bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center uppercase text-center font-serif ">Demander un devis</HashLink>
         </div>
       </div>
     </section>

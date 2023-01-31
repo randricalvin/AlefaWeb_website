@@ -93,7 +93,7 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
+                  <HashLink smooth='true' to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
                 </div>
               
             </div>
@@ -166,7 +166,7 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
+                  <HashLink smooth='true' to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
                 </div>
               
             </div>
@@ -243,7 +243,7 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
+                  <HashLink smooth='true' to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
                 </div>
               
             </div>
@@ -282,7 +282,7 @@ const Offers = () => {
                 </div>
               </div>
                 <div className='flex justify-center mb-8'>
-                  <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
+                  <HashLink smooth='true' to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
                 </div>
               
             </div>
@@ -301,7 +301,7 @@ const Offers = () => {
               </h1>
             </div>
             <div className='flex justify-center mx-12'>
-              <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Me contacter</HashLink>
+              <HashLink smooth='true' to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Me contacter</HashLink>
             </div>
             
           </div>

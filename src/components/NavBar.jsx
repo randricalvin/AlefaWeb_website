@@ -15,22 +15,22 @@ const NavBar = () => {
         <nav className='DESKTOP navbar flex justify-center items-center shadow-md'>
             <section className='justify-between w-5/6 mx-auto items-center DESKTOP-MENU hidden space-x-8 lg:flex'>
                 <div className='w-1/6'>
-                    <HashLink  smooth to='/#' className='flex justify-start'>
+                    <HashLink  smooth='true' to='/' className='flex justify-start'>
                         <img src={logoalefaweb} alt='logo' className='h-11' />
                     </HashLink>
                 </div>
                 <div className='w-4/6'>
                     <div className='flex justify-center items-center gap-12 font-serif'>
-                        <HashLink  smooth to='/#' className='text-xl list'>Accueil</HashLink>
-                        <HashLink  smooth to='/#services' className='text-xl list'>Services</HashLink>
-                        <HashLink  smooth to='/creation-de-sites-internet-orleans' className='text-xl list'>Offres</HashLink>
-                        <HashLink  smooth to='/realisation-de-sites-internet-orleans' className='text-xl list'>Réalisations</HashLink>
-                        <HashLink  smooth to='/blog' className='text-xl list' component={Blog}>Blog</HashLink>
+                        <HashLink  smooth='true' to='/' className='text-xl list'>Accueil</HashLink>
+                        <HashLink  smooth='true' to='/#services' className='text-xl list'>Services</HashLink>
+                        <HashLink  smooth='true' to='/creation-de-sites-internet-orleans' className='text-xl list'>Offres</HashLink>
+                        <HashLink  smooth='true' to='/realisation-de-sites-internet-orleans' className='text-xl list'>Réalisations</HashLink>
+                        <HashLink  smooth='true' to='/blog' className='text-xl list' component={Blog}>Blog</HashLink>
                     </div>
                 </div>
                 <div className='w-1/6'>
                     <div className='flex justify-end font-serif'>
-                        <HashLink  smooth to='/#contact' className='flex items-center text-white bg-[#fd7d28] py-2 px-8 rounded-full hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110'>Contact</HashLink>
+                        <HashLink  smooth='true' to='/#contact' className='flex items-center text-white bg-[#fd7d28] py-2 px-8 rounded-full hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110'>Contact</HashLink>
                     </div>
                 </div>
             </section>
@@ -38,7 +38,7 @@ const NavBar = () => {
 
         <nav>
             <section className="MOBILE-MENU mobile flex lg:hidden justify-end">
-                    <HashLink  smooth to='/#' className='logo flex w-full items-center justify-center'>
+                    <HashLink  smooth='true' to='/' className='logo flex w-full items-center justify-center'>
                         <div className='fixed'>
                             <img src={lettrage_rgb} alt='logo alefaweb' className='h-11 logo' />
                         </div>
@@ -72,22 +72,22 @@ const NavBar = () => {
                         onClick={() => setIsNavOpen(false)}
                         >
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink smooth to='/#'>Accueil</HashLink>
+                                <HashLink smooth='true' to='/#'>Accueil</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink smooth to='/#services'>Services</HashLink>
+                                <HashLink smooth='true' to='/#services'>Services</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink smooth to='/creation-de-sites-internet-orleans'>Offres</HashLink>
+                                <HashLink smooth='true' to='/creation-de-sites-internet-orleans'>Offres</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink smooth to='/realisation-de-sites-internet-orleans'>Réalisations</HashLink>
+                                <HashLink smooth='true' to='/realisation-de-sites-internet-orleans'>Réalisations</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
                                 <HashLink to='/blog'>Blog</HashLink>
                             </li>
                             <li className="font-medium text-center my-8 text-2xl">
-                                <HashLink  smooth to='/#contact' className='text-white button-service bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full px-5 py-3 inline-flex justify-center text-center'>Contact</HashLink>
+                                <HashLink  smooth='true' to='/#contact' className='text-white button-service bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 font-bold rounded-full px-5 py-3 inline-flex justify-center text-center'>Contact</HashLink>
                             </li>
                         </ul>
                     </div>

@@ -86,7 +86,7 @@ const Etapes = () => {
 
           
             <div className='flex justify-center pt-14 pb-14'>
-                <HashLink smooth to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
+                <HashLink smooth='true' to="/#contact" className="button-service text-white bg-[#fd7d28] hover:bg-[#FF6501] transition duration-300 ease-in-out hover:scale-110 rounded-full text-sm px-5 py-3 inline-flex justify-center text-center uppercase font-serif">Demander un devis</HashLink>
             </div>
     </section>
   )

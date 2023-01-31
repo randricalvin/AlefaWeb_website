@@ -6,7 +6,7 @@
 	.st0{fill:#121331;}
 	.st1{fill:#08a88a;}
 	.st2{fill:#08a88a;}
-	.st3{fill:none;stroke:#08a88a;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#08a88a;strokeWidth:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <g>
 	<g>

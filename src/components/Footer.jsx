@@ -55,8 +55,8 @@ const Footer = () => {
                         <a href="https://www.facebook.com/profile.php?id=100089605470255" target="_blank">
                             <img src={facebook} alt="facebook alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mx-2'/>
                         </a>
-                        <a href="" target="_blank">
-                            <img src={linkedin} alt="linkedin alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mr-2'/>
+                        <a href="" className='pointer-events-none'>
+                            <img src={linkedin} alt="linkedin alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2 mr-2 '/>
                         </a>
                         <a href="https://www.tiktok.com/@alefaweb?is_from_webapp=1&sender_device=pc" target="_blank">
                             <img src={tiktok} alt="tiktok alefaweb" className='h-10 bg-[#7c52fb8c] rounded-full hover:bg-[#7B52FB] hover:rounded-full p-2'/>

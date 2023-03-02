@@ -10,10 +10,10 @@ const Presentation = () => {
         <div className='presentation-header'>
             <div className='lg:text-4xl'>
                 <div className='presentation-title'>
-                    <h1 className=''>Développeur web freelance basé à 
-                        <span className='text-[#FF6501] text-presentation pb-2 my-2'> Alençon </span> 
+                    <h1 className=''>Développeur web freelance basé en 
+                        <span className='text-[#FF6501] text-presentation pb-2 my-2'> Centre-Val de Loire </span> 
                         et
-                        <span className='text-[#FF6501] text-presentation pb-2 my-2'> Orléans </span>. Disponible partout en France
+                        <span className='text-[#FF6501] text-presentation pb-2 my-2'> Normandie </span>.
                     </h1>
                 </div>
 

@@ -19,9 +19,9 @@ const Realisations = () => {
       <Helmet>
         <title>AlefaWeb | Réalisations - Réalisations site internet à Orléans</title>
         <link rel="canonical" href="https://www.alefaweb.com/realisation-de-sites-internet-orleans " />
-        <meta name="description" content="Retrouvez mes réalisations de sites internet à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher. Cliquez ici pour voir mes dernières réalisations." />
+        <meta name="description" content="Retrouvez mes réalisations de sites vitrines et site e-commerce à Orléans, Alençon. Création site internet Orléans, Alençon. référencement site internet Orléans, Alençon. solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher. Cliquez ici pour voir mes dernières réalisations." />
         <meta property='og:title' content='AlefaWeb | Réalisations - Réalisations site internet à Orléans' />
-        <meta property='og:description' content="Retrouvez mes réalisations de sites internet à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher. Cliquez ici pour voir mes dernières réalisations." />
+        <meta property='og:description' content="Retrouvez mes réalisations de sites vitrines et site e-commerce à Orléans, Alençon. Création site internet Orléans, Alençon. référencement site internet Orléans, Alençon. solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher. Cliquez ici pour voir mes dernières réalisations." />
         <meta property='og:url' content='https://www.alefaweb.com/realisation-de-sites-internet-orleans' />
       </Helmet>
 

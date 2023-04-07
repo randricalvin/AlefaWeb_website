@@ -18,9 +18,9 @@ const Offers = () => {
       <Helmet>
         <title>AlefaWeb | Mes offres - Création site vitrine et site e-commerce</title>
         <link rel="canonical" href="https://www.alefaweb.com/creation-site-internet-orleans" />
-        <meta name="description" content="Création de site internet vitrine et e-commerce à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher." />
+        <meta name="description" content="Création de site vitrine et e-commerce à Orléans, Alençon. Création site internet Orléans, Alençon. référencement site internet Orléans, Alençon. solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher." />
         <meta property='og:title' content='AlefaWeb | Mes offres - Création site vitrine et site e-commerce' />
-        <meta property='og:description' content='Création de site internet vitrine et e-commerce à Orléans. Création site internet Orléans, référencement site internet Orléans, solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher.' />
+        <meta property='og:description' content='Création de site vitrine et e-commerce à Orléans, Alençon. Création site internet Orléans, Alençon. référencement site internet Orléans, Alençon. solutions internet Orléans, Loiret, Normandie et France. Création de site web pas cher.' />
         <meta property='og:url' content='https://www.alefaweb.com/creation-site-internet-orleans' />
       </Helmet>
 
@@ -59,10 +59,6 @@ const Offers = () => {
                   <ul role="list" class="space-y-5 my-8">
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Proposition de maquette</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Nom de domaine, hébergement et e-mail pendant 12 mois</span>
                       </li>
                       <li class="flex space-x-3">
@@ -71,11 +67,15 @@ const Offers = () => {
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Intégration des contenus fournis</span>
+                          <span class="text-base font-normal leading-tight">Intégration de vos contenus (images et textes) 1 page **</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Interface administrateur</span>
+                      </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Sécurisation avec le certificat SSL</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -116,10 +116,6 @@ const Offers = () => {
                   <ul role="list" class="space-y-5 my-8">
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Proposition de maquette</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Nom de domaine, hébergement et e-mail pendant 12 mois</span>
                       </li>
                       <li class="flex space-x-3">
@@ -128,11 +124,15 @@ const Offers = () => {
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Intégration des contenus fournis</span>
+                          <span class="text-base font-normal leading-tight">Intégration de vos contenus (images et textes) jusqu'à 4 pages **</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Interface administrateur</span>
+                      </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Sécurisation avec le certificat SSL</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -189,15 +189,15 @@ const Offers = () => {
                   <ul role="list" class="space-y-5 my-8">
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Proposition de maquette</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Nom de domaine, hébergement et e-mail pendant 12 mois</span>
-                      </li>
-                      <li class="flex space-x-3">
-                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Site responsive : adapté à tout écran</span>
+                      </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Intégration de vos contenus (images, textes, produits) jusqu'à 5 pages**</span>
+                      </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Interface administrateur</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -209,11 +209,11 @@ const Offers = () => {
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Intégration des contenus et produits fournis</span>
+                          <span class="text-base font-normal leading-tight">Formulaire de contact + Map</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                          <span class="text-base font-normal leading-tight">Formulaire de contact + Map</span>
+                          <span class="text-base font-normal leading-tight">Sécurisation avec le certificat SSL</span>
                       </li>
                       <li class="flex space-x-3">
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -254,9 +254,9 @@ const Offers = () => {
                 <h5 class="text-2xl font-bold uppercase text-center">Maintenance</h5>
                 <h5 class="text-2xl font-bold uppercase text-center">site internet</h5>
                 <h5 class="mb-8 mt-11 lg:text-sm font-medium text-center h-14 text-offers">Un ensemble d’actions qui vont garder votre site en bonne santé et à jour, sur le plan technique et éditorial.</h5>
-              <div class="flex dark:text-white justify-center mt-16">
-                  <span class="text-5xl font-extrabold tracking-tight text-black">30</span>
-                  <span class="text-2xl font-extrabold tracking-tight text-black">€/h</span>
+              <div class="flex dark:text-white justify-center flex-col items-center">
+                  <span class="text-base font-medium text-gray-500 text-center uppercase mb-2 ">Forfait de 10 heures</span>
+                  <span class="text-5xl flex font-extrabold tracking-tight text-black">500<span class="text-2xl font-extrabold tracking-tight text-black">€ *</span></span>
               </div>
               </div>
               <div className='flex h-full'>
@@ -278,6 +278,10 @@ const Offers = () => {
                           <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                           <span class="text-base font-normal leading-tight">Maintenance diverse</span>
                       </li>
+                      <li class="flex space-x-3">
+                          <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-[#FF6501] dark:text-[#FF6501]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Check icon</title><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                          <span class="text-base font-normal leading-tight">Sauvegarde mensuelle des données</span>
+                      </li>
                   </ul>
                 </div>
               </div>
@@ -290,7 +294,10 @@ const Offers = () => {
 
           <div className='my-4'>
             <p className='text-sm condition'>
-              * Prix à titre indicatif : ils peuvent varier en fonction de la demande et le choix du client.
+              * Prix à titre indicatif : ils peuvent varier en fonction de la demande et le choix du client. L'ensemble des tarifs indiqués sont en Hors-taxe.
+            </p>
+            <p className='text-sm condition'>
+              ** Les textes et images devront être fournis au préalable par vos soins.
             </p>
           </div>
 

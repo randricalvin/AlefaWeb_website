@@ -13,7 +13,7 @@ const Presentation = () => {
                     <h1 className=''>Développeur web freelance basé en 
                         <span className='text-[#FF6501] text-presentation pb-2 my-2'> Centre-Val de Loire </span> 
                         et
-                        <span className='text-[#FF6501] text-presentation pb-2 my-2'> Normandie </span>.
+                        <span className='text-[#FF6501] text-presentation pb-2 my-2'> Normandie </span>
                     </h1>
                 </div>
 
